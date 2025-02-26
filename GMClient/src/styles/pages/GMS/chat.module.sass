@@ -1,0 +1,62 @@
+﻿.chattingMessageList
+    max-height: 300px
+    overflow-y: auto
+    border: 1px solid #e0e0e0
+    border-radius: 4px
+    margin: 12px
+    padding: 12px
+
+    .messageWrapper
+        display: flex
+        margin-bottom: 18px
+        justify-content: center
+
+        &.messageWrapperMine
+            margin-left: 60%
+            text-align: right
+            background-color: #3f9af7
+            color: #ffffff
+
+        &.messageWrapperTheir
+            margin-right: 60%
+            text-align: left
+
+        .messageType
+            padding: 12px
+            white-space: pre-wrap
+
+            &.messageTypeNormal
+                flex: 1 1 auto
+
+            &.messageTypeNotice
+                width: 100%
+                text-align: center
+                background-color: #f0f0f0
+                color: #797979
+
+        .messageTime
+            flex: 0 0 55px
+            padding: 22px 12px 2px 12px
+            vertical-align: bottom
+            font-size: 12px
+            text-align: right
+
+    .sendUserNameWrapper
+        display: inline-block
+        padding: 6px
+        box-shadow: 0 0 0 0 #ffffff00
+        border-radius: 0
+
+        .sendUserName
+            font-size: 13px
+
+@media (max-width: 600px)
+    .chattingMessageList
+
+        .messageWrapper
+
+            &.messageWrapperMine
+                margin-left: 20%
+
+            &.messageWrapperTheir
+                margin-right: 20%

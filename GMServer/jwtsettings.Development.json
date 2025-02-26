@@ -1,0 +1,13 @@
+{
+  "JwtSettings": {
+    "validateIssuerSigningKey": true,
+    "issuerSigningKey": "59c28e06-b8ca-11ed-9bd0-58112205f859",
+    "validateIssuer": true,
+    "validIssuer": "http://localhost:4100",
+    "validateAudience": true,
+    "validAudiences": [ "https://localhost:4101", "http://localhost:4100", "https://localhost:4201", "http://localhost:4200" ],
+    "requireExpirationTime": true,
+    "validateLifetime": true,
+    "expireMinutes": 5
+  }
+}

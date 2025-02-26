@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES6", "dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "@server/*": ["src/server/*"],
+      "@session/*": ["src/session/*"],
+      "@controllers/*": ["src/server/controllers/*"],
+      "@db/*": ["src/server/db/*"],
+      "@ngel/*": ["src/ngel/*"],
+      "@ngeldata/*": ["src/ngel/data/*"],
+      "@ngelscripts/*": ["src/ngel/scripts/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@packets/*": ["src/packets/*"],
+    }
+  },
+  "include": [
+    "src/app.ts", 
+    "src/server/**/*.ts", 
+    "src/session/**/*.ts", 
+    "src/ngel/**/*.ts", 
+    "src/ngel/**/*.json", 
+  ],
+  "exclude": ["node_modules", "Certification", "src/defines"]
+}

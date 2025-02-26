@@ -1,0 +1,172 @@
+// 100px
+@keyframes fadeInFromBottom100
+    0%
+        transform: translateY(100px)
+        opacity: 0
+
+    100%
+        transform: translateY(0)
+        opacity: 1
+        
+@-webkit-keyframes fadeInFromBottom100
+    0%
+        transform: translateY(100px)
+        opacity: 0
+
+    100%
+        transform: translateY(0)
+        opacity: 1
+
+@keyframes fadeOutToBottom100
+    0%
+        transform: translateY(0)
+        opacity: 1
+
+    100%
+        transform: translateY(-100px)
+        opacity: 0
+        
+@-webkit-keyframes fadeOutToBottom100
+    0%
+        transform: translateY(0)
+        opacity: 1
+
+    100%
+        transform: translateY(-100px)
+        opacity: 0
+
+// 50px
+@keyframes fadeInFromBottom50
+    0%
+        transform: translateY(50px)
+        opacity: 0
+
+    100%
+        transform: translateY(0)
+        opacity: 1
+        
+@-webkit-keyframes fadeInFromBottom50
+    0%
+        transform: translateY(50px)
+        opacity: 0
+
+    100%
+        transform: translateY(0)
+        opacity: 1
+
+@keyframes fadeOutToBottom50
+    0%
+        transform: translateY(0)
+        opacity: 1
+
+    100%
+        transform: translateY(-50px)
+        opacity: 0
+        
+@-webkit-keyframes fadeOutToBottom50
+    0%
+        transform: translateY(0)
+        opacity: 1
+
+    100%
+        transform: translateY(-50px)
+        opacity: 0
+
+// 10px
+@keyframes fadeInFromBottom10
+    0%
+        transform: translateY(10px)
+        opacity: 0
+
+    100%
+        transform: translateY(0)
+        opacity: 1
+        
+@-webkit-keyframes fadeInFromBottom10
+    0%
+        transform: translateY(10px)
+        opacity: 0
+
+    100%
+        transform: translateY(0)
+        opacity: 1
+
+@keyframes fadeOutToBottom10
+    0%
+        transform: translateY(0)
+        opacity: 1
+
+    100%
+        transform: translateY(-10px)
+        opacity: 0
+        
+@-webkit-keyframes fadeOutToBottom10
+    0%
+        transform: translateY(0)
+        opacity: 1
+
+    100%
+        transform: translateY(-10px)
+        opacity: 0
+
+
+// mixin
+// 100px
+@mixin fadeInFromBottomActive100
+    display: block
+    opacity: 0
+    transform: translateY(-100px)
+    -webkit-animation: fadeInFromBottom100 0.4s both
+    animation: fadeInFromBottom100 0.4s both
+
+@mixin fadeOutToBottomInActive100
+    display: block
+    opacity: 1
+    transform: translateY(0)
+    -webkit-animation: fadeOutToBottom100 0.4s both
+    animation: fadeOutToBottom100 0.4s both
+
+// 50px
+@mixin fadeInFromBottomActive50
+    display: block
+    opacity: 0
+    transform: translateY(-50px)
+    -webkit-animation: fadeInFromBottom50 0.4s both
+    animation: fadeInFromBottom50 0.4s both
+
+@mixin fadeOutToBottomInActive50
+    display: block
+    opacity: 1
+    transform: translateY(0)
+    -webkit-animation: fadeOutToBottom50 0.4s both
+    animation: fadeOutToBottom50 0.4s both
+
+// 50px Flex
+@mixin fadeInFromBottomActive50Flex
+    display: flex
+    opacity: 0
+    transform: translateX(-50px)
+    -webkit-animation: fadeInFromBottom50 0.4s both
+    animation: fadeInFromBottom50 0.4s both
+
+@mixin fadeOutToLeftInActive50Flex
+    display: flex
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToBottom50 0.4s both
+    animation: fadeOutToBottom50 0.4s both
+
+// 10px
+@mixin fadeInFromBottomActive10
+    display: block
+    opacity: 0
+    transform: translateY(-10px)
+    -webkit-animation: fadeInFromBottom10 0.4s both
+    animation: fadeInFromBottom10 0.4s both
+
+@mixin fadeOutToBottomInActive10
+    display: block
+    opacity: 1
+    transform: translateY(0)
+    -webkit-animation: fadeOutToBottom10 0.4s both
+    animation: fadeOutToBottom10 0.4s both

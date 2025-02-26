@@ -1,0 +1,21 @@
+.pagingWrapper
+    display: flex
+    justify-content: center
+    margin: 20px auto
+
+    .pagingButton
+        display: inline-block
+        margin: 0 0 0 5px
+        padding: 3px 5px
+        min-width: 30px
+        max-width: 60px
+
+        &:first-child
+            margin-left: 0
+
+@media (max-width: 450px)
+    .pagingWrapper
+        display: block
+        
+        .pagingButton
+            margin: 0 0 3px 5px

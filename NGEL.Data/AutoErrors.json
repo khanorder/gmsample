@@ -1,0 +1,3706 @@
+{
+    "None": {
+        "Error": "None",
+        "Name": "오류없음"
+    },
+    "Unknown": {
+        "Error": "Unknown",
+        "Name": "알수없는 오류"
+    },
+    "Common_Forbidden": {
+        "Error": "Common_Forbidden",
+        "Name": "접근금지(권한없음)"
+    },
+    "Common_NotFoundToken": {
+        "Error": "Common_NotFoundToken",
+        "Name": "인증 토큰없음"
+    },
+    "Common_FailedToEncodeMsgPack": {
+        "Error": "Common_FailedToEncodeMsgPack",
+        "Name": "데이터를 메세지팩으로 변환 실패"
+    },
+    "Common_FailedToDecodeMsgPack": {
+        "Error": "Common_FailedToDecodeMsgPack",
+        "Name": "메세지팩을 데이터로 변환 실패"
+    },
+    "Common_PacketArgsEmpty": {
+        "Error": "Common_PacketArgsEmpty",
+        "Name": "패킷인자 없음"
+    },
+    "Common_PacketNull": {
+        "Error": "Common_PacketNull",
+        "Name": "패킷 없음"
+    },
+    "Common_FailedToParse": {
+        "Error": "Common_FailedToParse",
+        "Name": "변환 실패"
+    },
+    "Common_Denied": {
+        "Error": "Common_Denied",
+        "Name": "방화벽 제제"
+    },
+    "DefaultWebSocketAuthorize_HTTPContextNull": {
+        "Error": "DefaultWebSocketAuthorize_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "DefaultWebSocketAuthorize_Forbidden": {
+        "Error": "DefaultWebSocketAuthorize_Forbidden",
+        "Name": "로그인 정보없음"
+    },
+    "DefaultWebSocketAuthorize_NotFoundSignInId": {
+        "Error": "DefaultWebSocketAuthorize_NotFoundSignInId",
+        "Name": "로그인 고유 아이디 없음"
+    },
+    "DefaultWebSocketAuthorize_NotFoundSignInUser": {
+        "Error": "DefaultWebSocketAuthorize_NotFoundSignInUser",
+        "Name": "로그인 정보 유저정보 없음"
+    },
+    "DefaultWebSocketAuthorize_AuthExpired": {
+        "Error": "DefaultWebSocketAuthorize_AuthExpired",
+        "Name": "로그인 정보 만료"
+    },
+    "DownloadFile_EmptyData": {
+        "Error": "DownloadFile_EmptyData",
+        "Name": "데이터 없음"
+    },
+    "DownloadFile_EmptyFileName": {
+        "Error": "DownloadFile_EmptyFileName",
+        "Name": "파일명 없음"
+    },
+    "DownloadFile_EmptyContentType": {
+        "Error": "DownloadFile_EmptyContentType",
+        "Name": "파일형식 없음"
+    },
+    "DefaultAPIAuthorize_Forbidden": {
+        "Error": "DefaultAPIAuthorize_Forbidden",
+        "Name": "로그인 정보없음"
+    },
+    "DefaultAPIAuthorize_NotFoundSignInId": {
+        "Error": "DefaultAPIAuthorize_NotFoundSignInId",
+        "Name": "로그인 고유 아이디 없음"
+    },
+    "DefaultAPIAuthorize_NotFoundSignInUser": {
+        "Error": "DefaultAPIAuthorize_NotFoundSignInUser",
+        "Name": "로그인 정보 유저정보 없음"
+    },
+    "DefaultAPIAuthorize_AuthExpired": {
+        "Error": "DefaultAPIAuthorize_AuthExpired",
+        "Name": "로그인 정보 만료"
+    },
+    "IssueTokenkey_UserRequired": {
+        "Error": "IssueTokenkey_UserRequired",
+        "Name": "사용자 정보 필요"
+    },
+    "IssueTokenkey_ClientIdRequired": {
+        "Error": "IssueTokenkey_ClientIdRequired",
+        "Name": "클라이언트 아이디 필요"
+    },
+    "IssueTokenkey_NotFoundClientInfo": {
+        "Error": "IssueTokenkey_NotFoundClientInfo",
+        "Name": "클라이언트 정보 없음"
+    },
+    "IssueTokenkey_FailedToIssueToken": {
+        "Error": "IssueTokenkey_FailedToIssueToken",
+        "Name": "토큰발행 실패"
+    },
+    "IssueTokenkey_UnknownError": {
+        "Error": "IssueTokenkey_UnknownError",
+        "Name": "알 수없는 오류"
+    },
+    "SignInClaim_HTTPContextNull": {
+        "Error": "SignInClaim_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "SignInClaim_ClientIdRequired": {
+        "Error": "SignInClaim_ClientIdRequired",
+        "Name": "클라이언트 아이디 없음"
+    },
+    "SignInClaim_NotFoundClientId": {
+        "Error": "SignInClaim_NotFoundClientId",
+        "Name": "등록되지 않은 클라이언트 아이디"
+    },
+    "SignInClaim_FailedToInsertSuperRole": {
+        "Error": "SignInClaim_FailedToInsertSuperRole",
+        "Name": "최고권한 생성 실패"
+    },
+    "SignInClaim_FailedToAddSuperRoleUser": {
+        "Error": "SignInClaim_FailedToAddSuperRoleUser",
+        "Name": "유저에게 최고권한 부여 실패"
+    },
+    "SignInClaim_AlreadySignIn": {
+        "Error": "SignInClaim_AlreadySignIn",
+        "Name": "이미 로그인 됨"
+    },
+    "SignInClaim_FailedToIssueToken": {
+        "Error": "SignInClaim_FailedToIssueToken",
+        "Name": "인증토큰 생성 실패"
+    },
+    "SignInClaim_UnknownError": {
+        "Error": "SignInClaim_UnknownError",
+        "Name": "예외"
+    },
+    "JWTDeserializeToken_TokenStringRequired": {
+        "Error": "JWTDeserializeToken_TokenStringRequired",
+        "Name": "토큰 내용이 필요"
+    },
+    "JWTDeserializeToken_FailedToReadToken": {
+        "Error": "JWTDeserializeToken_FailedToReadToken",
+        "Name": "토큰내용 확인 실패"
+    },
+    "JWTDeserializeToken_TokenNull": {
+        "Error": "JWTDeserializeToken_TokenNull",
+        "Name": "토큰내용 없음"
+    },
+    "JWTDeserializeToken_AudienceRequired": {
+        "Error": "JWTDeserializeToken_AudienceRequired",
+        "Name": "토큰 수신자 정보 필요"
+    },
+    "JWTDeserializeToken_TokenExpired": {
+        "Error": "JWTDeserializeToken_TokenExpired",
+        "Name": "만료된 토근"
+    },
+    "JWTDeserializeToken_TokenSigningKeyRequired": {
+        "Error": "JWTDeserializeToken_TokenSigningKeyRequired",
+        "Name": "토근 서명 필요"
+    },
+    "JWTDeserializeToken_FailedToValidateToken": {
+        "Error": "JWTDeserializeToken_FailedToValidateToken",
+        "Name": "유효하지 않은 토큰"
+    },
+    "JWTDeserializeToken_ValidTokenNull": {
+        "Error": "JWTDeserializeToken_ValidTokenNull",
+        "Name": "유효한 토큰 없음"
+    },
+    "JWTGetPrincipal_TokenStringRequired": {
+        "Error": "JWTGetPrincipal_TokenStringRequired",
+        "Name": "토큰 내용이 필요"
+    },
+    "JWTGetPrincipal_FailedToReadToken": {
+        "Error": "JWTGetPrincipal_FailedToReadToken",
+        "Name": "토큰내용 확인 실패"
+    },
+    "JWTGetPrincipal_TokenNull": {
+        "Error": "JWTGetPrincipal_TokenNull",
+        "Name": "토큰내용 없음"
+    },
+    "JWTGetPrincipal_AudienceRequired": {
+        "Error": "JWTGetPrincipal_AudienceRequired",
+        "Name": "토큰 수신자 정보 필요"
+    },
+    "JWTGetPrincipal_TokenExpired": {
+        "Error": "JWTGetPrincipal_TokenExpired",
+        "Name": "만료된 토근"
+    },
+    "JWTGetPrincipal_TokenSigningKeyRequired": {
+        "Error": "JWTGetPrincipal_TokenSigningKeyRequired",
+        "Name": "토근 서명 필요"
+    },
+    "JWTGetPrincipal_FailedToValidateToken": {
+        "Error": "JWTGetPrincipal_FailedToValidateToken",
+        "Name": "유효하지 않은 토큰"
+    },
+    "JWTGetPrincipal_ValidTokenNull": {
+        "Error": "JWTGetPrincipal_ValidTokenNull",
+        "Name": "유효한 토큰 없음"
+    },
+    "Authentication_ClientIdRequired": {
+        "Error": "Authentication_ClientIdRequired",
+        "Name": "클라이언트 아이디 없음"
+    },
+    "Authentication_NotFoundClientId": {
+        "Error": "Authentication_NotFoundClientId",
+        "Name": "등록되지 않은 클라이언트 아이디"
+    },
+    "Authentication_OAuthProviderRequired": {
+        "Error": "Authentication_OAuthProviderRequired",
+        "Name": "인증형식 값 필요"
+    },
+    "Authentication_OidRequired": {
+        "Error": "Authentication_OidRequired",
+        "Name": "OAuth 고유 아이디 필요"
+    },
+    "Authentication_EmailRequired": {
+        "Error": "Authentication_EmailRequired",
+        "Name": "이메일 정보 필요"
+    },
+    "Authentication_NameRequired": {
+        "Error": "Authentication_NameRequired",
+        "Name": "이름 필요"
+    },
+    "Authentication_ConnectionIdRequired": {
+        "Error": "Authentication_ConnectionIdRequired",
+        "Name": "허브 연결 아이디 필요"
+    },
+    "Authentication_FailedSignUp": {
+        "Error": "Authentication_FailedSignUp",
+        "Name": "인증 후 가입 실패"
+    },
+    "Authentication_NotFoundUser": {
+        "Error": "Authentication_NotFoundUser",
+        "Name": "사용자 정보 없음"
+    },
+    "Authentication_DeletedUser": {
+        "Error": "Authentication_DeletedUser",
+        "Name": "삭제된 유저"
+    },
+    "Authentication_AlreadySignIn": {
+        "Error": "Authentication_AlreadySignIn",
+        "Name": "이미 로그인됨"
+    },
+    "Authentication_FailedToInsertSignInTime": {
+        "Error": "Authentication_FailedToInsertSignInTime",
+        "Name": "로그인 시간 입력 실패"
+    },
+    "Authentication_FailedToUpdateSignInTime": {
+        "Error": "Authentication_FailedToUpdateSignInTime",
+        "Name": "로그인 시간 업데이트 실패"
+    },
+    "Authentication_FailedSignIn": {
+        "Error": "Authentication_FailedSignIn",
+        "Name": "인증 실패"
+    },
+    "Authentication_UnknownError": {
+        "Error": "Authentication_UnknownError",
+        "Name": "예외"
+    },
+    "NaverGetUser_AccessTokenRequired": {
+        "Error": "NaverGetUser_AccessTokenRequired",
+        "Name": "접근 토큰 필요"
+    },
+    "NaverGetUser_FailedToRequestProfileAPI": {
+        "Error": "NaverGetUser_FailedToRequestProfileAPI",
+        "Name": "프로필 API 요청실패"
+    },
+    "NaverGetUser_NotFoundUser": {
+        "Error": "NaverGetUser_NotFoundUser",
+        "Name": "유저 정보없음"
+    },
+    "KakaoGetUser_AccessTokenRequired": {
+        "Error": "KakaoGetUser_AccessTokenRequired",
+        "Name": "접근 토큰 필요"
+    },
+    "KakaoGetUser_FailedToRequestProfileAPI": {
+        "Error": "KakaoGetUser_FailedToRequestProfileAPI",
+        "Name": "프로필 API 요청실패"
+    },
+    "KakaoGetUser_NotFoundUser": {
+        "Error": "KakaoGetUser_NotFoundUser",
+        "Name": "유저 정보없음"
+    },
+    "Connected_HTTPContextNull": {
+        "Error": "Connected_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "Connected_NotFoundAuth": {
+        "Error": "Connected_NotFoundAuth",
+        "Name": "로그인 정보 없음"
+    },
+    "Connected_NotFoundSigninId": {
+        "Error": "Connected_NotFoundSigninId",
+        "Name": "로그인 아이디 없음"
+    },
+    "Connected_SigninIdMustGuid": {
+        "Error": "Connected_SigninIdMustGuid",
+        "Name": "로그인 아이디는 Guid 형식"
+    },
+    "Connected_NotFoundOAuthKeyId": {
+        "Error": "Connected_NotFoundOAuthKeyId",
+        "Name": "OAuth Key 아이디 없음"
+    },
+    "Connected_OAuthKeyIdMustGuid": {
+        "Error": "Connected_OAuthKeyIdMustGuid",
+        "Name": "OAuth Key 아이디 Guid 형식"
+    },
+    "Connected_AuthRemoved": {
+        "Error": "Connected_AuthRemoved",
+        "Name": "삭제된 인증"
+    },
+    "Connected_AuthExpired": {
+        "Error": "Connected_AuthExpired",
+        "Name": "인증시간 만료"
+    },
+    "Connected_UnknownError": {
+        "Error": "Connected_UnknownError",
+        "Name": "예외"
+    },
+    "SignIn_OAuthError": {
+        "Error": "SignIn_OAuthError",
+        "Name": "OAuth 인증오류"
+    },
+    "SignIn_ClientIdRequired": {
+        "Error": "SignIn_ClientIdRequired",
+        "Name": "클라이언트 아이디 필요"
+    },
+    "SignIn_NotAllowedOAuthProvider": {
+        "Error": "SignIn_NotAllowedOAuthProvider",
+        "Name": "허용된 인증형식이 아님"
+    },
+    "SignIn_OAuthCodeRequired": {
+        "Error": "SignIn_OAuthCodeRequired",
+        "Name": "인증코드 필요"
+    },
+    "SignIn_OAuthStateCodeRequired": {
+        "Error": "SignIn_OAuthStateCodeRequired",
+        "Name": "인증상태코드 필요"
+    },
+    "SignIn_FailedToGetUser": {
+        "Error": "SignIn_FailedToGetUser",
+        "Name": "인증실패"
+    },
+    "SignIn_ClientIdMustGuid": {
+        "Error": "SignIn_ClientIdMustGuid",
+        "Name": "클라이언트 아이디는 Guid 형식"
+    },
+    "SignIn_NotAllowedClientId": {
+        "Error": "SignIn_NotAllowedClientId",
+        "Name": "허가된 클라이언트 아이디 아님"
+    },
+    "SignIn_AlreadySignIn": {
+        "Error": "SignIn_AlreadySignIn",
+        "Name": "이미 로그인됨"
+    },
+    "SignIn_TokenRequired": {
+        "Error": "SignIn_TokenRequired",
+        "Name": "인증토큰 필요"
+    },
+    "SignIn_FailedToParseToken": {
+        "Error": "SignIn_FailedToParseToken",
+        "Name": "토큰 변환실패"
+    },
+    "SignIn_EmailRequired": {
+        "Error": "SignIn_EmailRequired",
+        "Name": "이메일 정보 필요"
+    },
+    "SignIn_MustUseCompanyMail": {
+        "Error": "SignIn_MustUseCompanyMail",
+        "Name": "회사 메일이 아님"
+    },
+    "SignIn_NameRequired": {
+        "Error": "SignIn_NameRequired",
+        "Name": "이름 필요"
+    },
+    "SignIn_OidRequired": {
+        "Error": "SignIn_OidRequired",
+        "Name": "OAuth 고유 아이디 필요"
+    },
+    "SignIn_FailedSignIn": {
+        "Error": "SignIn_FailedSignIn",
+        "Name": "인증 실패"
+    },
+    "SignInLDAP_ClientIdRequired": {
+        "Error": "SignInLDAP_ClientIdRequired",
+        "Name": "클라이언트 아이디 필요"
+    },
+    "SignInLDAP_ClientIdMustGuid": {
+        "Error": "SignInLDAP_ClientIdMustGuid",
+        "Name": "클라이언트 아이디 형식 오류"
+    },
+    "SignInLDAP_NotAllowedClientId": {
+        "Error": "SignInLDAP_NotAllowedClientId",
+        "Name": "허가된 클라이언트 아이디 아님"
+    },
+    "SignInLDAP_AlreadySignIn": {
+        "Error": "SignInLDAP_AlreadySignIn",
+        "Name": "이미 로그인됨"
+    },
+    "SignInLDAP_EmailRequired": {
+        "Error": "SignInLDAP_EmailRequired",
+        "Name": "이메일 입력 필요"
+    },
+    "SignInLDAP_MustUseCompanyMail": {
+        "Error": "SignInLDAP_MustUseCompanyMail",
+        "Name": "회사 메일이 아님"
+    },
+    "SignInLDAP_PasswordRequired": {
+        "Error": "SignInLDAP_PasswordRequired",
+        "Name": "비밀번호 입력 필요"
+    },
+    "SignInLDAP_DoNotMatchedData": {
+        "Error": "SignInLDAP_DoNotMatchedData",
+        "Name": "이메일 또는 비밀번호 불일치"
+    },
+    "SignInLDAP_OAuthEmailNull": {
+        "Error": "SignInLDAP_OAuthEmailNull",
+        "Name": "인증된 이메일 정보 없음"
+    },
+    "SignInLDAP_OAuthNameNull": {
+        "Error": "SignInLDAP_OAuthNameNull",
+        "Name": "인증된 이름 정보 없음"
+    },
+    "SignInLDAP_OAuthUidNull": {
+        "Error": "SignInLDAP_OAuthUidNull",
+        "Name": "인증된 고유번호 정보 없음"
+    },
+    "SignInLDAP_FailedSignIn": {
+        "Error": "SignInLDAP_FailedSignIn",
+        "Name": "인증 실패"
+    },
+    "SignInLDAP_CanNotTrySignIn": {
+        "Error": "SignInLDAP_CanNotTrySignIn",
+        "Name": "인증시도 실패"
+    },
+    "UpdateSignIn_ReissueToken": {
+        "Error": "UpdateSignIn_ReissueToken",
+        "Name": "토큰 갱신"
+    },
+    "UpdateSignIn_HTTPContextNull": {
+        "Error": "UpdateSignIn_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "UpdateSignIn_TokenEmpty": {
+        "Error": "UpdateSignIn_TokenEmpty",
+        "Name": "인증토큰 없음"
+    },
+    "UpdateSignIn_TokenNull": {
+        "Error": "UpdateSignIn_TokenNull",
+        "Name": "인증토큰 변환실패"
+    },
+    "UpdateSignIn_ConnectionIdRequired": {
+        "Error": "UpdateSignIn_ConnectionIdRequired",
+        "Name": "연결 아이디 필요"
+    },
+    "UpdateSignIn_TokenExpired": {
+        "Error": "UpdateSignIn_TokenExpired",
+        "Name": "인증토큰 만료"
+    },
+    "UpdateSignIn_NotFoundAuth": {
+        "Error": "UpdateSignIn_NotFoundAuth",
+        "Name": "로그인 정보 없음"
+    },
+    "UpdateSignIn_NotFoundSigninId": {
+        "Error": "UpdateSignIn_NotFoundSigninId",
+        "Name": "로그인 아이디 없음"
+    },
+    "UpdateSignIn_SigninIdMustGuid": {
+        "Error": "UpdateSignIn_SigninIdMustGuid",
+        "Name": "로그인 아이디는 Guid 형식"
+    },
+    "UpdateSignIn_NotFoundOAuthKeyId": {
+        "Error": "UpdateSignIn_NotFoundOAuthKeyId",
+        "Name": "OAuth Key 아이디 없음"
+    },
+    "UpdateSignIn_OAuthKeyIdMustGuid": {
+        "Error": "UpdateSignIn_OAuthKeyIdMustGuid",
+        "Name": "OAuth Key 아이디 Guid 형식"
+    },
+    "UpdateSignIn_AudienceRequired": {
+        "Error": "UpdateSignIn_AudienceRequired",
+        "Name": "토큰 수신자 정보 필요"
+    },
+    "UpdateSignIn_NotFoundUser": {
+        "Error": "UpdateSignIn_NotFoundUser",
+        "Name": "유저정보 없음"
+    },
+    "UpdateSignIn_DeletedUser": {
+        "Error": "UpdateSignIn_DeletedUser",
+        "Name": "삭제된 유저"
+    },
+    "UpdateSignIn_NotSignedInUser": {
+        "Error": "UpdateSignIn_NotSignedInUser",
+        "Name": "로그인하지 않은 유저"
+    },
+    "UpdateSignIn_AlreadySignIn": {
+        "Error": "UpdateSignIn_AlreadySignIn",
+        "Name": "이미 로그인됨"
+    },
+    "UpdateSignIn_AuthExpired": {
+        "Error": "UpdateSignIn_AuthExpired",
+        "Name": "인증시간 만료"
+    },
+    "UpdateSignIn_UnknownError": {
+        "Error": "UpdateSignIn_UnknownError",
+        "Name": "예외"
+    },
+    "UpdateSignIn_ClientIdRequired": {
+        "Error": "UpdateSignIn_ClientIdRequired",
+        "Name": "클라이언트 아이디 필요"
+    },
+    "UpdateSignIn_ClientIdMustGuid": {
+        "Error": "UpdateSignIn_ClientIdMustGuid",
+        "Name": "클라이언트 아이디는 Guid 형식"
+    },
+    "UpdateSignIn_NotAllowedClientId": {
+        "Error": "UpdateSignIn_NotAllowedClientId",
+        "Name": "허가된 클라이언트 아이디 아님"
+    },
+    "UpdateSignIn_NotFoundClientInfo": {
+        "Error": "UpdateSignIn_NotFoundClientInfo",
+        "Name": "클라이언트 정보 없음"
+    },
+    "UpdateSignIn_FailedToIssueToken": {
+        "Error": "UpdateSignIn_FailedToIssueToken",
+        "Name": "인증토큰 생성 실패"
+    },
+    "UpdateSignIn_Forbidden": {
+        "Error": "UpdateSignIn_Forbidden",
+        "Name": "로그인 정보없음"
+    },
+    "UpdateSignIn_SignInIdRquired": {
+        "Error": "UpdateSignIn_SignInIdRquired",
+        "Name": "사인아이디 필요"
+    },
+    "UpdateSignIn_OAuthKeyIdRquired": {
+        "Error": "UpdateSignIn_OAuthKeyIdRquired",
+        "Name": "인증 아이디 필요"
+    },
+    "UpdateSignIn_UpdateTimeRquired": {
+        "Error": "UpdateSignIn_UpdateTimeRquired",
+        "Name": "업데이트 시간 필요"
+    },
+    "UpdateSignIn_UpdateTimeMustTimeStamp": {
+        "Error": "UpdateSignIn_UpdateTimeMustTimeStamp",
+        "Name": "업데이트 시간은 시간형식"
+    },
+    "UpdateSignIn_FailedToInsertSignInTime": {
+        "Error": "UpdateSignIn_FailedToInsertSignInTime",
+        "Name": "로그인 시간 입력 실패"
+    },
+    "UpdateSignIn_FailedToUpdateSignInTime": {
+        "Error": "UpdateSignIn_FailedToUpdateSignInTime",
+        "Name": "로그인 시간 입력 실패"
+    },
+    "SignOut_TokenEmpty": {
+        "Error": "SignOut_TokenEmpty",
+        "Name": "인증토큰 없음"
+    },
+    "SignOut_TokenNull": {
+        "Error": "SignOut_TokenNull",
+        "Name": "인증토큰 변환실패"
+    },
+    "SignOut_NotFoundUserId": {
+        "Error": "SignOut_NotFoundUserId",
+        "Name": "사용자 아이디 없음"
+    },
+    "SignOut_UserIdMustGuid": {
+        "Error": "SignOut_UserIdMustGuid",
+        "Name": "사용자 아이디는 Guid 형식"
+    },
+    "SignOut_HTTPContextNull": {
+        "Error": "SignOut_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "SignOut_NotFoundAuth": {
+        "Error": "SignOut_NotFoundAuth",
+        "Name": "로그인 정보 없음"
+    },
+    "SignOut_UnknownError": {
+        "Error": "SignOut_UnknownError",
+        "Name": "예외"
+    },
+    "GetSignedInUser_TokenEmpty": {
+        "Error": "GetSignedInUser_TokenEmpty",
+        "Name": "인증토큰 없음"
+    },
+    "GetSignedInUser_TokenNull": {
+        "Error": "GetSignedInUser_TokenNull",
+        "Name": "인증토큰 변환실패"
+    },
+    "GetSignedInUser_TokenExpired": {
+        "Error": "GetSignedInUser_TokenExpired",
+        "Name": "인증토큰 만료"
+    },
+    "GetSignedInUser_HTTPContextNull": {
+        "Error": "GetSignedInUser_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "GetSignedInUser_NotFoundAuth": {
+        "Error": "GetSignedInUser_NotFoundAuth",
+        "Name": "로그인 정보 없음"
+    },
+    "GetSignedInUser_NotFoundSigninId": {
+        "Error": "GetSignedInUser_NotFoundSigninId",
+        "Name": "로그인 아이디 없음"
+    },
+    "GetSignedInUser_SigninIdMustGuid": {
+        "Error": "GetSignedInUser_SigninIdMustGuid",
+        "Name": "로그인 아이디는 Guid 형식"
+    },
+    "GetSignedInUser_NotFoundOAuthKeyId": {
+        "Error": "GetSignedInUser_NotFoundOAuthKeyId",
+        "Name": "OAuth Key 아이디 없음"
+    },
+    "GetSignedInUser_OAuthKeyIdMustGuid": {
+        "Error": "GetSignedInUser_OAuthKeyIdMustGuid",
+        "Name": "OAuth Key 아이디 Guid 형식"
+    },
+    "GetSignedInUser_NotFoundUser": {
+        "Error": "GetSignedInUser_NotFoundUser",
+        "Name": "사용자 정보 없음"
+    },
+    "GetSignedInUser_DeletedUser": {
+        "Error": "GetSignedInUser_DeletedUser",
+        "Name": "삭제된 유저"
+    },
+    "GetSignedInUser_NotFoundUserSignin": {
+        "Error": "GetSignedInUser_NotFoundUserSignin",
+        "Name": "로그인 정보 없음"
+    },
+    "GetSignedInUser_AuthExpired": {
+        "Error": "GetSignedInUser_AuthExpired",
+        "Name": "만료된 로그인 정보"
+    },
+    "GetSignedInUser_UnknownError": {
+        "Error": "GetSignedInUser_UnknownError",
+        "Name": "예외"
+    },
+    "CheckAuthentication_TokenRequired": {
+        "Error": "CheckAuthentication_TokenRequired",
+        "Name": "토큰 필요"
+    },
+    "CheckAuthentication_ReissueToken": {
+        "Error": "CheckAuthentication_ReissueToken",
+        "Name": "토큰 갱신"
+    },
+    "CheckAuthentication_HTTPContextNull": {
+        "Error": "CheckAuthentication_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "CheckAuthentication_NotFoundAuth": {
+        "Error": "CheckAuthentication_NotFoundAuth",
+        "Name": "로그인 정보 없음"
+    },
+    "CheckAuthentication_NotFoundSigninId": {
+        "Error": "CheckAuthentication_NotFoundSigninId",
+        "Name": "로그인 아이디 없음"
+    },
+    "CheckAuthentication_AuthExpired": {
+        "Error": "CheckAuthentication_AuthExpired",
+        "Name": "인증시간 만료"
+    },
+    "CheckAuthentication_NotFoundUser": {
+        "Error": "CheckAuthentication_NotFoundUser",
+        "Name": "유저 정보 없음"
+    },
+    "CheckAuthentication_UnknownError": {
+        "Error": "CheckAuthentication_UnknownError",
+        "Name": "예외"
+    },
+    "CheckAuthentication_FailedToReissueToken": {
+        "Error": "CheckAuthentication_FailedToReissueToken",
+        "Name": "토큰 재발행 실패"
+    },
+    "CheckConnection_ReissueToken": {
+        "Error": "CheckConnection_ReissueToken",
+        "Name": "토큰 갱신"
+    },
+    "CheckConnection_HTTPContextNull": {
+        "Error": "CheckConnection_HTTPContextNull",
+        "Name": "HTTP 객체 없음"
+    },
+    "CheckConnection_NotFoundAuth": {
+        "Error": "CheckConnection_NotFoundAuth",
+        "Name": "로그인 정보 없음"
+    },
+    "CheckConnection_NotFoundSignInId": {
+        "Error": "CheckConnection_NotFoundSignInId",
+        "Name": "로그인 아이디 없음"
+    },
+    "CheckConnection_SigninIdMustGuid": {
+        "Error": "CheckConnection_SigninIdMustGuid",
+        "Name": "로그인 아이디는 Guid 형식"
+    },
+    "CheckConnection_NotFoundOAuthKeyId": {
+        "Error": "CheckConnection_NotFoundOAuthKeyId",
+        "Name": "OAuth Key 아이디 없음"
+    },
+    "CheckConnection_OAuthKeyIdMustGuid": {
+        "Error": "CheckConnection_OAuthKeyIdMustGuid",
+        "Name": "OAuth Key 아이디 Guid 형식"
+    },
+    "CheckConnection_FailedToRefreshSignIn": {
+        "Error": "CheckConnection_FailedToRefreshSignIn",
+        "Name": "OAuth Key ID 없음"
+    },
+    "CheckConnection_NotFoundUser": {
+        "Error": "CheckConnection_NotFoundUser",
+        "Name": "유저정보 없음"
+    },
+    "CheckConnection_AuthExpired": {
+        "Error": "CheckConnection_AuthExpired",
+        "Name": "로그인 정보 만료"
+    },
+    "CheckConnection_PasswordExpired": {
+        "Error": "CheckConnection_PasswordExpired",
+        "Name": "비밀번호 만료"
+    },
+    "CheckConnection_FailedToReissueToken": {
+        "Error": "CheckConnection_FailedToReissueToken",
+        "Name": "토큰 재발행 실패"
+    },
+    "KickUser_UIDRequired": {
+        "Error": "KickUser_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "KickUser_UIDMustInt64": {
+        "Error": "KickUser_UIDMustInt64",
+        "Name": "유저정보 없음"
+    },
+    "KickUser_NotFoundUserAccount": {
+        "Error": "KickUser_NotFoundUserAccount",
+        "Name": "유저정보 없음"
+    },
+    "KickUser_NotSignedInUser": {
+        "Error": "KickUser_NotSignedInUser",
+        "Name": "유저정보 없음"
+    },
+    "Account_UIDRequired": {
+        "Error": "Account_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Account_NotFoundData": {
+        "Error": "Account_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Achievement_UIDRequired": {
+        "Error": "Achievement_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Achievement_NotFoundData": {
+        "Error": "Achievement_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveAchievements_EmptyData": {
+        "Error": "SaveAchievements_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveAchievements_UIDRequired": {
+        "Error": "SaveAchievements_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveAchievements_AchievementIDRequired": {
+        "Error": "SaveAchievements_AchievementIDRequired",
+        "Name": "업적 아이디 필요"
+    },
+    "SaveAchievements_NotSuitableAchievement": {
+        "Error": "SaveAchievements_NotSuitableAchievement",
+        "Name": "부적합한 업적 정보 없음"
+    },
+    "SaveAchievements_CountOneOrMore": {
+        "Error": "SaveAchievements_CountOneOrMore",
+        "Name": "업접 수행횟수는 1이상"
+    },
+    "SaveAchievements_CountOverMax": {
+        "Error": "SaveAchievements_CountOverMax",
+        "Name": "업접 수행횟수 최대치"
+    },
+    "SaveAchievements_CompleteAtRequired": {
+        "Error": "SaveAchievements_CompleteAtRequired",
+        "Name": "완료시간 필요"
+    },
+    "SaveAchievements_NotFoundUserAccount": {
+        "Error": "SaveAchievements_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveAchievements_FailedToInsert": {
+        "Error": "SaveAchievements_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveAchievements_FailedToUpdate": {
+        "Error": "SaveAchievements_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteAchievements_EmptyData": {
+        "Error": "DeleteAchievements_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteAchievements_UIDRequired": {
+        "Error": "DeleteAchievements_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteAchievements_AchievementIDRequired": {
+        "Error": "DeleteAchievements_AchievementIDRequired",
+        "Name": "업적 아이디 필요"
+    },
+    "DeleteAchievements_NotFoundUserAccount": {
+        "Error": "DeleteAchievements_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteAchievements_NotFoundAnyData": {
+        "Error": "DeleteAchievements_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteAchievements_NotFoundData": {
+        "Error": "DeleteAchievements_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteAchievements_FailedToDelete": {
+        "Error": "DeleteAchievements_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "Artifact_UIDRequired": {
+        "Error": "Artifact_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Artifact_NotFoundData": {
+        "Error": "Artifact_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveArtifacts_EmptyData": {
+        "Error": "SaveArtifacts_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveArtifacts_UIDRequired": {
+        "Error": "SaveArtifacts_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveArtifacts_ArtifactIDRequired": {
+        "Error": "SaveArtifacts_ArtifactIDRequired",
+        "Name": "유물 아이디 필요"
+    },
+    "SaveArtifacts_CountZeroOrMore": {
+        "Error": "SaveArtifacts_CountZeroOrMore",
+        "Name": "수량은 0이상"
+    },
+    "SaveArtifacts_NotFoundUserAccount": {
+        "Error": "SaveArtifacts_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveArtifacts_FailedToInsert": {
+        "Error": "SaveArtifacts_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveArtifacts_FailedToUpdate": {
+        "Error": "SaveArtifacts_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteArtifacts_EmptyData": {
+        "Error": "DeleteArtifacts_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteArtifacts_UIDRequired": {
+        "Error": "DeleteArtifacts_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteArtifacts_ArtifactIDRequired": {
+        "Error": "DeleteArtifacts_ArtifactIDRequired",
+        "Name": "유물 아이디 필요"
+    },
+    "DeleteArtifacts_NotFoundUserAccount": {
+        "Error": "DeleteArtifacts_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteArtifacts_NotFoundAnyData": {
+        "Error": "DeleteArtifacts_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteArtifacts_NotFoundData": {
+        "Error": "DeleteArtifacts_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteArtifacts_FailedToDelete": {
+        "Error": "DeleteArtifacts_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "ArtifactDeck_UIDRequired": {
+        "Error": "ArtifactDeck_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "ArtifactDeck_NotFoundData": {
+        "Error": "ArtifactDeck_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Assets_UIDRequired": {
+        "Error": "Assets_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Assets_NotFoundData": {
+        "Error": "Assets_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveAssets_EmptyData": {
+        "Error": "SaveAssets_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveAssets_UIDRequired": {
+        "Error": "SaveAssets_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveAssets_AssetIDRequired": {
+        "Error": "SaveAssets_AssetIDRequired",
+        "Name": "재화 아이디 필요"
+    },
+    "SaveAssets_CountZeroOrMore": {
+        "Error": "SaveAssets_CountZeroOrMore",
+        "Name": "수량은 0이상"
+    },
+    "SaveAssets_NotFoundUserAccount": {
+        "Error": "SaveAssets_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveAssets_FailedToInsert": {
+        "Error": "SaveAssets_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveAssets_FailedToUpdate": {
+        "Error": "SaveAssets_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteAssets_EmptyData": {
+        "Error": "DeleteAssets_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteAssets_UIDRequired": {
+        "Error": "DeleteAssets_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteAssets_AssetIDRequired": {
+        "Error": "DeleteAssets_AssetIDRequired",
+        "Name": "재화 아이디 필요"
+    },
+    "DeleteAssets_NotFoundUserAccount": {
+        "Error": "DeleteAssets_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteAssets_NotFoundAnyData": {
+        "Error": "DeleteAssets_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteAssets_NotFoundData": {
+        "Error": "DeleteAssets_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteAssets_FailedToDelete": {
+        "Error": "DeleteAssets_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "Attendance_UIDRequired": {
+        "Error": "Attendance_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Attendance_NotFoundData": {
+        "Error": "Attendance_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveAttendance_UIDRequired": {
+        "Error": "SaveAttendance_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveAttendance_AttendanceIDRequired": {
+        "Error": "SaveAttendance_AttendanceIDRequired",
+        "Name": "출석체크 아이디 필요"
+    },
+    "SaveAttendance_RewardStateRequired": {
+        "Error": "SaveAttendance_RewardStateRequired",
+        "Name": "출석체크 보상수령 상태 필요"
+    },
+    "SaveAttendance_NotFoundSuitableAttendanceData": {
+        "Error": "SaveAttendance_NotFoundSuitableAttendanceData",
+        "Name": "적합한 출석체크 정보가 없습니다"
+    },
+    "SaveAttendance_NotFoundSuitableRewardState": {
+        "Error": "SaveAttendance_NotFoundSuitableRewardState",
+        "Name": "출석보상 정보의 갯수가 적합하지 않습니다"
+    },
+    "SaveAttendance_NotFoundUserAccount": {
+        "Error": "SaveAttendance_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveAttendance_FailedToInsert": {
+        "Error": "SaveAttendance_FailedToInsert",
+        "Name": "보상수령 정보 입력 실패"
+    },
+    "SaveAttendance_FailedToUpdate": {
+        "Error": "SaveAttendance_FailedToUpdate",
+        "Name": "보상수령 정보 수정 실패"
+    },
+    "Collection_UIDRequired": {
+        "Error": "Collection_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Collection_NotFoundData": {
+        "Error": "Collection_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveCollections_EmptyData": {
+        "Error": "SaveCollections_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveCollections_UIDRequired": {
+        "Error": "SaveCollections_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveCollections_NotSuitableCollectionType": {
+        "Error": "SaveCollections_NotSuitableCollectionType",
+        "Name": "부적합한 도감 타입"
+    },
+    "SaveCollections_CollectionIDRequired": {
+        "Error": "SaveCollections_CollectionIDRequired",
+        "Name": "도감 아이디 필요"
+    },
+    "SaveCollections_NotFoundUserAccount": {
+        "Error": "SaveCollections_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveCollections_FailedToSave": {
+        "Error": "SaveCollections_FailedToSave",
+        "Name": "테이터 저장 실패"
+    },
+    "DeleteCollections_EmptyData": {
+        "Error": "DeleteCollections_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteCollections_UIDRequired": {
+        "Error": "DeleteCollections_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteCollections_NotSuitableCollectionType": {
+        "Error": "DeleteCollections_NotSuitableCollectionType",
+        "Name": "부적합한 도감 타입"
+    },
+    "DeleteCollections_CollectionIDRequired": {
+        "Error": "DeleteCollections_CollectionIDRequired",
+        "Name": "도감 아이디 필요"
+    },
+    "DeleteCollections_NotFoundUserAccount": {
+        "Error": "DeleteCollections_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteCollections_NotFoundAnyData": {
+        "Error": "DeleteCollections_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteCollections_NotFoundData": {
+        "Error": "DeleteCollections_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteCollections_FailedToDelete": {
+        "Error": "DeleteCollections_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "Craft_UIDRequired": {
+        "Error": "Craft_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Craft_NotFoundData": {
+        "Error": "Craft_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Entitlement_UIDRequired": {
+        "Error": "Entitlement_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Entitlement_NotFoundData": {
+        "Error": "Entitlement_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveEntitlements_EmptyData": {
+        "Error": "SaveEntitlements_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveEntitlements_UIDRequired": {
+        "Error": "SaveEntitlements_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveEntitlements_EntitlementIDRequired": {
+        "Error": "SaveEntitlements_EntitlementIDRequired",
+        "Name": "칭호 아이디 필요"
+    },
+    "SaveEntitlements_NotFoundUserAccount": {
+        "Error": "SaveEntitlements_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveEntitlements_FailedToInsert": {
+        "Error": "SaveEntitlements_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveEntitlements_AlreadyExistsData": {
+        "Error": "SaveEntitlements_AlreadyExistsData",
+        "Name": "같은 테이터 존재"
+    },
+    "DeleteEntitlements_EmptyData": {
+        "Error": "DeleteEntitlements_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteEntitlements_UIDRequired": {
+        "Error": "DeleteEntitlements_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteEntitlements_EntitlementIDRequired": {
+        "Error": "DeleteEntitlements_EntitlementIDRequired",
+        "Name": "칭호 아이디 필요"
+    },
+    "DeleteEntitlements_NotFoundUserAccount": {
+        "Error": "DeleteEntitlements_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteEntitlements_NotFoundAnyData": {
+        "Error": "DeleteEntitlements_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteEntitlements_NotFoundData": {
+        "Error": "DeleteEntitlements_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteEntitlements_FailedToDelete": {
+        "Error": "DeleteEntitlements_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "Friend_UIDRequired": {
+        "Error": "Friend_UIDRequired",
+        "Name": "UID 필요"
+    },
+    "Friend_NotFoundData": {
+        "Error": "Friend_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "GlitchStore_UIDRequired": {
+        "Error": "GlitchStore_UIDRequired",
+        "Name": "UID 필요"
+    },
+    "GlitchStore_NotFoundData": {
+        "Error": "GlitchStore_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "GuideMission_UIDRequired": {
+        "Error": "GuideMission_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "GuideMission_NotFoundData": {
+        "Error": "GuideMission_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveGuideMissions_EmptyData": {
+        "Error": "SaveGuideMissions_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveGuideMissions_UIDRequired": {
+        "Error": "SaveGuideMissions_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveGuideMissions_GuideMissionCategoryRequired": {
+        "Error": "SaveGuideMissions_GuideMissionCategoryRequired",
+        "Name": "가이드 미션 카테고리 필요"
+    },
+    "SaveGuideMissions_MissionIDRequired": {
+        "Error": "SaveGuideMissions_MissionIDRequired",
+        "Name": "가이드 미션 아이디 필요"
+    },
+    "SaveGuideMissions_NotSuitableGuideMissionData": {
+        "Error": "SaveGuideMissions_NotSuitableGuideMissionData",
+        "Name": "부적합한 미션 데이터"
+    },
+    "SaveGuideMissions_NotFoundUserAccount": {
+        "Error": "SaveGuideMissions_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveGuideMissions_NotFoundData": {
+        "Error": "SaveGuideMissions_NotFoundData",
+        "Name": "시즌미션 정보없음"
+    },
+    "SaveGuideMissions_FailedToUpdate": {
+        "Error": "SaveGuideMissions_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "GuideMissionProgressReward_UIDRequired": {
+        "Error": "GuideMissionProgressReward_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "GuideMissionProgressReward_NotFoundData": {
+        "Error": "GuideMissionProgressReward_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Hero_UIDRequired": {
+        "Error": "Hero_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Hero_NotFoundData": {
+        "Error": "Hero_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "HeroSkin_UIDRequired": {
+        "Error": "HeroSkin_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "HeroSkin_NotFoundData": {
+        "Error": "HeroSkin_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "HeroSkinPreset_UIDRequired": {
+        "Error": "HeroSkinPreset_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "HeroSkinPreset_NotFoundData": {
+        "Error": "HeroSkinPreset_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Inventory_UIDRequired": {
+        "Error": "Inventory_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Inventory_NotFoundData": {
+        "Error": "Inventory_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveInventories_EmptyData": {
+        "Error": "SaveInventories_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveInventories_UIDRequired": {
+        "Error": "SaveInventories_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveInventories_ItemIDRequired": {
+        "Error": "SaveInventories_ItemIDRequired",
+        "Name": "아이템 아이디 필요"
+    },
+    "SaveInventories_CountZeroOrMore": {
+        "Error": "SaveInventories_CountZeroOrMore",
+        "Name": "수량은 0이상"
+    },
+    "SaveInventories_NotFoundUserAccount": {
+        "Error": "SaveInventories_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveInventories_FailedToInsert": {
+        "Error": "SaveInventories_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveInventories_FailedToUpdate": {
+        "Error": "SaveInventories_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteInventories_EmptyData": {
+        "Error": "DeleteInventories_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteInventories_UIDRequired": {
+        "Error": "DeleteInventories_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteInventories_ItemIDRequired": {
+        "Error": "DeleteInventories_ItemIDRequired",
+        "Name": "아이템 아이디 필요"
+    },
+    "DeleteInventories_NotFoundUserAccount": {
+        "Error": "DeleteInventories_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteInventories_NotFoundAnyData": {
+        "Error": "DeleteInventories_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteInventories_NotFoundData": {
+        "Error": "DeleteInventories_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteInventories_FailedToDelete": {
+        "Error": "DeleteInventories_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "Mail_UIDRequired": {
+        "Error": "Mail_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Mail_NotFoundData": {
+        "Error": "Mail_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "MazeRewardBox_UIDRequired": {
+        "Error": "MazeRewardBox_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "MazeRewardBox_NotFoundData": {
+        "Error": "MazeRewardBox_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "NicePlayers_UIDRequired": {
+        "Error": "NicePlayers_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "NicePlayers_NotFoundData": {
+        "Error": "NicePlayers_NotFoundData",
+        "Name": "칭찬 정보 없음"
+    },
+    "Penalties_UIDRequired": {
+        "Error": "Penalties_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Penalties_StartTimeRequired": {
+        "Error": "Penalties_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "Penalties_StartTimeNotSuitableDateTime": {
+        "Error": "Penalties_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "Penalties_EndTimeRequired": {
+        "Error": "Penalties_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "Penalties_EndTimeNotSuitableDateTime": {
+        "Error": "Penalties_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "Penalties_SearchPeriodLimit": {
+        "Error": "Penalties_SearchPeriodLimit",
+        "Name": "검색기간 넘음"
+    },
+    "Penalties_NotFoundData": {
+        "Error": "Penalties_NotFoundData",
+        "Name": "패널티 정보 없음"
+    },
+    "Penalty_EmptyParameters": {
+        "Error": "Penalty_EmptyParameters",
+        "Name": "인자 없음"
+    },
+    "Penalty_UIDRequired": {
+        "Error": "Penalty_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Penalty_PenaltyReportStateRequired": {
+        "Error": "Penalty_PenaltyReportStateRequired",
+        "Name": "패널티 형태 필요"
+    },
+    "Penalty_NotFoundData": {
+        "Error": "Penalty_NotFoundData",
+        "Name": "패널티 정보 없음"
+    },
+    "SavePenalty_EmptyData": {
+        "Error": "SavePenalty_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SavePenalty_UIDRequired": {
+        "Error": "SavePenalty_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SavePenalty_PenaltyReportStateRequired": {
+        "Error": "SavePenalty_PenaltyReportStateRequired",
+        "Name": "패널티 형식 필요"
+    },
+    "SavePenalty_NotSuitablePenaltyReportState": {
+        "Error": "SavePenalty_NotSuitablePenaltyReportState",
+        "Name": "적합한 패널티 형식 아님"
+    },
+    "SavePenalty_PenaltyGradeReqired": {
+        "Error": "SavePenalty_PenaltyGradeReqired",
+        "Name": "패널티 등급 필요"
+    },
+    "SavePenalty_NotSuitablePenaltyGrade": {
+        "Error": "SavePenalty_NotSuitablePenaltyGrade",
+        "Name": "적합한 패널티 등급 아님"
+    },
+    "SavePenalty_NotAllowUpperPenaltyGrade": {
+        "Error": "SavePenalty_NotAllowUpperPenaltyGrade",
+        "Name": "패널티 등급 상향 불가"
+    },
+    "SavePenalty_NotFoundUserAccount": {
+        "Error": "SavePenalty_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SavePenalty_NotFoundData": {
+        "Error": "SavePenalty_NotFoundData",
+        "Name": "패널티 정보없음"
+    },
+    "SavePenalty_FailedToUpdate": {
+        "Error": "SavePenalty_FailedToUpdate",
+        "Name": "테이터 수정 실패"
+    },
+    "Pet_UIDRequired": {
+        "Error": "Pet_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Pet_NotFoundData": {
+        "Error": "Pet_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "PlayRecordGoldClashes_UIDRequired": {
+        "Error": "PlayRecordGoldClashes_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "PlayRecordGoldClashes_NotFoundData": {
+        "Error": "PlayRecordGoldClashes_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "PlayRecordRpgs_UIDRequired": {
+        "Error": "PlayRecordRpgs_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "PlayRecordRpgs_NotFoundData": {
+        "Error": "PlayRecordRpgs_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Production_UIDRequired": {
+        "Error": "Production_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Production_NotFoundData": {
+        "Error": "Production_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveProductions_EmptyData": {
+        "Error": "SaveProductions_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveProductions_UIDRequired": {
+        "Error": "SaveProductions_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveProductions_ProductionTypeRequired": {
+        "Error": "SaveProductions_ProductionTypeRequired",
+        "Name": "생산시설 형태 필요"
+    },
+    "SaveProductions_ProductionLevelRequired": {
+        "Error": "SaveProductions_ProductionLevelRequired",
+        "Name": "생산시설 레벨 필요"
+    },
+    "SaveProductions_ProductionStartAtRequired": {
+        "Error": "SaveProductions_ProductionStartAtRequired",
+        "Name": "생산 시작시간 필요"
+    },
+    "SaveProductions_NotFoundUserAccount": {
+        "Error": "SaveProductions_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveProductions_NotFoundData": {
+        "Error": "SaveProductions_NotFoundData",
+        "Name": "생산시설 정보없음"
+    },
+    "SaveProductions_FailedToUpdate": {
+        "Error": "SaveProductions_FailedToUpdate",
+        "Name": "테이터 수정 실패"
+    },
+    "Profile_UIDRequired": {
+        "Error": "Profile_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Profile_NotFoundData": {
+        "Error": "Profile_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveProfiles_EmptyData": {
+        "Error": "SaveProfiles_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveProfiles_UIDRequired": {
+        "Error": "SaveProfiles_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveProfiles_ProfileIDRequired": {
+        "Error": "SaveProfiles_ProfileIDRequired",
+        "Name": "프로필 아이디 필요"
+    },
+    "SaveProfiles_ProfileTypeRequired": {
+        "Error": "SaveProfiles_ProfileTypeRequired",
+        "Name": "프로필 형식 필요"
+    },
+    "SaveProfiles_NotFoundUserAccount": {
+        "Error": "SaveProfiles_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveProfiles_AlreadyExistsData": {
+        "Error": "SaveProfiles_AlreadyExistsData",
+        "Name": "이미 있는 프로필"
+    },
+    "SaveProfiles_FailedToInsert": {
+        "Error": "SaveProfiles_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveProfiles_FailedToUpdate": {
+        "Error": "SaveProfiles_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteProfiles_EmptyData": {
+        "Error": "DeleteProfiles_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteProfiles_UIDRequired": {
+        "Error": "DeleteProfiles_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteProfiles_ProfileIDRequired": {
+        "Error": "DeleteProfiles_ProfileIDRequired",
+        "Name": "프로필 아이디 필요"
+    },
+    "DeleteProfiles_NotFoundUserAccount": {
+        "Error": "DeleteProfiles_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteProfiles_NotFoundAnyData": {
+        "Error": "DeleteProfiles_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteProfiles_NotFoundData": {
+        "Error": "DeleteProfiles_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteProfiles_FailedToDelete": {
+        "Error": "DeleteProfiles_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "RankingReward_UIDRequired": {
+        "Error": "RankingReward_UIDRequired",
+        "Name": "UID 필요"
+    },
+    "RankingReward_NotFoundData": {
+        "Error": "RankingReward_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "RpgAttribute_UIDRequired": {
+        "Error": "RpgAttribute_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "RpgAttribute_NotFoundData": {
+        "Error": "RpgAttribute_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveRpgAttributes_EmptyData": {
+        "Error": "SaveRpgAttributes_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveRpgAttributes_UIDRequired": {
+        "Error": "SaveRpgAttributes_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveRpgAttributes_IDRequired": {
+        "Error": "SaveRpgAttributes_IDRequired",
+        "Name": "특성 아이디 필요"
+    },
+    "SaveRpgAttributes_LevelOneOrMore": {
+        "Error": "SaveRpgAttributes_LevelOneOrMore",
+        "Name": "레벨은 1이상"
+    },
+    "SaveRpgAttributes_NotFoundUserAccount": {
+        "Error": "SaveRpgAttributes_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveRpgAttributes_FailedToInsert": {
+        "Error": "SaveRpgAttributes_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveRpgAttributes_FailedToUpdate": {
+        "Error": "SaveRpgAttributes_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteRpgAttributes_EmptyData": {
+        "Error": "DeleteRpgAttributes_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteRpgAttributes_UIDRequired": {
+        "Error": "DeleteRpgAttributes_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteRpgAttributes_IDRequired": {
+        "Error": "DeleteRpgAttributes_IDRequired",
+        "Name": "특성 아이디 필요"
+    },
+    "DeleteRpgAttributes_NotFoundUserAccount": {
+        "Error": "DeleteRpgAttributes_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteRpgAttributes_NotFoundAnyData": {
+        "Error": "DeleteRpgAttributes_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteRpgAttributes_NotFoundData": {
+        "Error": "DeleteRpgAttributes_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteRpgAttributes_FailedToDelete": {
+        "Error": "DeleteRpgAttributes_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "SeasonMission_UIDRequired": {
+        "Error": "SeasonMission_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SeasonMission_NotFoundData": {
+        "Error": "SeasonMission_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveSeasonMissions_EmptyData": {
+        "Error": "SaveSeasonMissions_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveSeasonMissions_UIDRequired": {
+        "Error": "SaveSeasonMissions_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveSeasonMissions_SeasonPassIDRequired": {
+        "Error": "SaveSeasonMissions_SeasonPassIDRequired",
+        "Name": "시즌패스 아이디 필요"
+    },
+    "SaveSeasonMissions_MissionIDRequired": {
+        "Error": "SaveSeasonMissions_MissionIDRequired",
+        "Name": "미션 아이디 필요"
+    },
+    "SaveSeasonMissions_NotSuitableSeasonMissionData": {
+        "Error": "SaveSeasonMissions_NotSuitableSeasonMissionData",
+        "Name": "부적합한 미션 데이터"
+    },
+    "SaveSeasonMissions_CountZeroOrMore": {
+        "Error": "SaveSeasonMissions_CountZeroOrMore",
+        "Name": "횟수는 0이상"
+    },
+    "SaveSeasonMissions_NotSuitableSeasonMissionCount": {
+        "Error": "SaveSeasonMissions_NotSuitableSeasonMissionCount",
+        "Name": "부적합한 미션 횟수"
+    },
+    "SaveSeasonMissions_NotFoundUserAccount": {
+        "Error": "SaveSeasonMissions_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveSeasonMissions_NotFoundData": {
+        "Error": "SaveSeasonMissions_NotFoundData",
+        "Name": "시즌미션 정보없음"
+    },
+    "SaveSeasonMissions_FailedToUpdate": {
+        "Error": "SaveSeasonMissions_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "SeasonPass_UIDRequired": {
+        "Error": "SeasonPass_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SeasonPass_NotFoundData": {
+        "Error": "SeasonPass_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveSeasonPass_EmptyData": {
+        "Error": "SaveSeasonPass_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveSeasonPass_UIDRequired": {
+        "Error": "SaveSeasonPass_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveSeasonPass_SeasonPassIDRequired": {
+        "Error": "SaveSeasonPass_SeasonPassIDRequired",
+        "Name": "시즌패스 아이디 필요"
+    },
+    "SaveSeasonPass_NotFoundSuitableSeasonPassData": {
+        "Error": "SaveSeasonPass_NotFoundSuitableSeasonPassData",
+        "Name": "적합한 시즌패스 정보가 없습니다"
+    },
+    "SaveSeasonPass_SeasonNumRequired": {
+        "Error": "SaveSeasonPass_SeasonNumRequired",
+        "Name": "시즌 넘버 필요"
+    },
+    "SaveSeasonPass_LevelRequired": {
+        "Error": "SaveSeasonPass_LevelRequired",
+        "Name": "레벨 필요"
+    },
+    "SaveSeasonPass_ExpRequired": {
+        "Error": "SaveSeasonPass_ExpRequired",
+        "Name": "경험치 필요"
+    },
+    "SaveSeasonPass_RewardStateRequired": {
+        "Error": "SaveSeasonPass_RewardStateRequired",
+        "Name": "시즌패스 보상수령 상태 필요"
+    },
+    "SaveSeasonPass_NotFoundSuitableRewardState": {
+        "Error": "SaveSeasonPass_NotFoundSuitableRewardState",
+        "Name": "시즌패스 정보의 갯수가 적합하지 않습니다"
+    },
+    "SaveSeasonPass_NotFoundUserAccount": {
+        "Error": "SaveSeasonPass_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveSeasonPass_FailedToInsert": {
+        "Error": "SaveSeasonPass_FailedToInsert",
+        "Name": "보상수령 정보 입력 실패"
+    },
+    "SaveSeasonPass_FailedToUpdate": {
+        "Error": "SaveSeasonPass_FailedToUpdate",
+        "Name": "보상수령 정보 수정 실패"
+    },
+    "Trade_UIDRequired": {
+        "Error": "Trade_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Trade_NotFoundData": {
+        "Error": "Trade_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "TreasureBox_UIDRequired": {
+        "Error": "TreasureBox_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "TreasureBox_NotFoundData": {
+        "Error": "TreasureBox_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveTreasureBoxes_EmptyData": {
+        "Error": "SaveTreasureBoxes_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveTreasureBoxes_UIDRequired": {
+        "Error": "SaveTreasureBoxes_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveTreasureBoxes_BoxIDRequired": {
+        "Error": "SaveTreasureBoxes_BoxIDRequired",
+        "Name": "보물상자 아이디 필요"
+    },
+    "SaveTreasureBoxes_NotSuitableBoxID": {
+        "Error": "SaveTreasureBoxes_NotSuitableBoxID",
+        "Name": "부적합한 보물상자 정보 없음"
+    },
+    "SaveTreasureBoxes_OpenAtRequired": {
+        "Error": "SaveTreasureBoxes_OpenAtRequired",
+        "Name": "상자 획득시간 필요"
+    },
+    "SaveTreasureBoxes_NotFoundUserAccount": {
+        "Error": "SaveTreasureBoxes_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveTreasureBoxes_AlreadyExistsData": {
+        "Error": "SaveTreasureBoxes_AlreadyExistsData",
+        "Name": "이미 획득한 보물상자"
+    },
+    "SaveTreasureBoxes_FailedToInsert": {
+        "Error": "SaveTreasureBoxes_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveTreasureBoxes_FailedToUpdate": {
+        "Error": "SaveTreasureBoxes_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteTreasureBoxes_EmptyData": {
+        "Error": "DeleteTreasureBoxes_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteTreasureBoxes_UIDRequired": {
+        "Error": "DeleteTreasureBoxes_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteTreasureBoxes_BoxIDRequired": {
+        "Error": "DeleteTreasureBoxes_BoxIDRequired",
+        "Name": "보물상자 아이디 필요"
+    },
+    "DeleteTreasureBoxes_NotFoundUserAccount": {
+        "Error": "DeleteTreasureBoxes_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteTreasureBoxes_NotFoundAnyData": {
+        "Error": "DeleteTreasureBoxes_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteTreasureBoxes_NotFoundData": {
+        "Error": "DeleteTreasureBoxes_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteTreasureBoxes_FailedToDelete": {
+        "Error": "DeleteTreasureBoxes_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "UserAccountByNick_NickRequired": {
+        "Error": "UserAccountByNick_NickRequired",
+        "Name": "닉네임 입력 필요"
+    },
+    "UserAccountByNick_NotFoundUserAccount": {
+        "Error": "UserAccountByNick_NotFoundUserAccount",
+        "Name": "유저정보 없음"
+    },
+    "UserAccountByUID_UIDRequired": {
+        "Error": "UserAccountByUID_UIDRequired",
+        "Name": "UID 입력 필요"
+    },
+    "UserAccountByUID_UIDMustInt64": {
+        "Error": "UserAccountByUID_UIDMustInt64",
+        "Name": "UID는 정수"
+    },
+    "UserAccountByUID_NotFoundUserAccount": {
+        "Error": "UserAccountByUID_NotFoundUserAccount",
+        "Name": "유저정보 없음"
+    },
+    "UserAccountByMemberNo_MemberNoRequired": {
+        "Error": "UserAccountByMemberNo_MemberNoRequired",
+        "Name": "MemberNo 입력 필요"
+    },
+    "UserAccountByMemberNo_MemberNoMustUInt64": {
+        "Error": "UserAccountByMemberNo_MemberNoMustUInt64",
+        "Name": "MemberNo는 정수"
+    },
+    "UserAccountByMemberNo_NotFoundAccount": {
+        "Error": "UserAccountByMemberNo_NotFoundAccount",
+        "Name": "유저 연결정보 없음"
+    },
+    "UserAccountByMemberNo_NotFoundUserAccount": {
+        "Error": "UserAccountByMemberNo_NotFoundUserAccount",
+        "Name": "유저정보 없음"
+    },
+    "SaveUserAccount_UserAccountRequired": {
+        "Error": "SaveUserAccount_UserAccountRequired",
+        "Name": "사용자 계정정보 필요"
+    },
+    "SaveUserAccount_UIDRequired": {
+        "Error": "SaveUserAccount_UIDRequired",
+        "Name": "사용자 계정 고유번호 필요"
+    },
+    "SaveUserAccount_NickRequired": {
+        "Error": "SaveUserAccount_NickRequired",
+        "Name": "사용자 닉네임 필요"
+    },
+    "SaveUserAccount_ProfileIconIDRequired": {
+        "Error": "SaveUserAccount_ProfileIconIDRequired",
+        "Name": "사용자 프로필 아이콘 정보 필요"
+    },
+    "SaveUserAccount_ProfileBGIDRequired": {
+        "Error": "SaveUserAccount_ProfileBGIDRequired",
+        "Name": "사용자 프로필 배경 정보 필요"
+    },
+    "SaveUserAccount_HeroIDRequired": {
+        "Error": "SaveUserAccount_HeroIDRequired",
+        "Name": "사용자 영웅 정보 필요"
+    },
+    "SaveUserAccount_PetUniqueIDRequired": {
+        "Error": "SaveUserAccount_PetUniqueIDRequired",
+        "Name": "사용자 펫 정보 필요"
+    },
+    "SaveUserAccount_VehicleIDRequired": {
+        "Error": "SaveUserAccount_VehicleIDRequired",
+        "Name": "사용자 탈것 정보 필요"
+    },
+    "SaveUserAccount_UserLevelRequired": {
+        "Error": "SaveUserAccount_UserLevelRequired",
+        "Name": "사용자 레벨 정보 필요"
+    },
+    "SaveUserAccount_UserExpRequired": {
+        "Error": "SaveUserAccount_UserExpRequired",
+        "Name": "사용자 경험치 정보 필요"
+    },
+    "SaveUserAccount_LastClearChapterIDRequired": {
+        "Error": "SaveUserAccount_LastClearChapterIDRequired",
+        "Name": "글리치 던전 클리어 정보 필요"
+    },
+    "SaveUserAccount_NotFoundUserAccount": {
+        "Error": "SaveUserAccount_NotFoundUserAccount",
+        "Name": "사용자 정보 없음"
+    },
+    "SaveUserAccount_FailedToUpdate": {
+        "Error": "SaveUserAccount_FailedToUpdate",
+        "Name": "사용자 정보 수정 실패"
+    },
+    "UserBlockByNick_NickRequired": {
+        "Error": "UserBlockByNick_NickRequired",
+        "Name": "닉네임 필요"
+    },
+    "UserBlockByNick_NotFoundUserAccount": {
+        "Error": "UserBlockByNick_NotFoundUserAccount",
+        "Name": "사용자 정보 검색실패"
+    },
+    "UserBlockByNick_NotFoundAccount": {
+        "Error": "UserBlockByNick_NotFoundAccount",
+        "Name": "사용자 계정 연결정보 검색실패"
+    },
+    "UserBlockByNick_NotFoundMemberNo": {
+        "Error": "UserBlockByNick_NotFoundMemberNo",
+        "Name": "스토브 계정 정보 없음"
+    },
+    "UserBlockByNick_NotFoundData": {
+        "Error": "UserBlockByNick_NotFoundData",
+        "Name": "테이터 없음"
+    },
+    "UserBlockByMemberNo_MemberNoRequired": {
+        "Error": "UserBlockByMemberNo_MemberNoRequired",
+        "Name": "스마게 계정 아이디 필요"
+    },
+    "UserBlockByMemberNo_MemberNoMustUInt64": {
+        "Error": "UserBlockByMemberNo_MemberNoMustUInt64",
+        "Name": "MemberNo는 정수"
+    },
+    "UserBlockByMemberNo_NotFoundAccount": {
+        "Error": "UserBlockByMemberNo_NotFoundAccount",
+        "Name": "사용자 계정 연결정보 검색실패"
+    },
+    "UserBlockByMemberNo_NotFoundUserAccount": {
+        "Error": "UserBlockByMemberNo_NotFoundUserAccount",
+        "Name": "사용자 정보 검색실패"
+    },
+    "UserBlockByMemberNo_NotFoundMemberNo": {
+        "Error": "UserBlockByMemberNo_NotFoundMemberNo",
+        "Name": "스토브 계정 정보 없음"
+    },
+    "UserBlockByMemberNo_NotFoundData": {
+        "Error": "UserBlockByMemberNo_NotFoundData",
+        "Name": "테이터 없음"
+    },
+    "UserBlockByUID_UIDRequired": {
+        "Error": "UserBlockByUID_UIDRequired",
+        "Name": "계정 고유 아이디 필요"
+    },
+    "UserBlockByUID_UIDMustInt64": {
+        "Error": "UserBlockByUID_UIDMustInt64",
+        "Name": "UID는 정수"
+    },
+    "UserBlockByUID_NotFoundUserAccount": {
+        "Error": "UserBlockByUID_NotFoundUserAccount",
+        "Name": "사용자 정보 검색실패"
+    },
+    "UserBlockByUID_NotFoundAccount": {
+        "Error": "UserBlockByUID_NotFoundAccount",
+        "Name": "사용자 계정 연결정보 검색실패"
+    },
+    "UserBlockByUID_NotFoundMemberNo": {
+        "Error": "UserBlockByUID_NotFoundMemberNo",
+        "Name": "스토브 계정 정보 없음"
+    },
+    "UserBlockByUID_NotFoundData": {
+        "Error": "UserBlockByUID_NotFoundData",
+        "Name": "테이터 없음"
+    },
+    "SaveUserBlock_EmptyUserBlock": {
+        "Error": "SaveUserBlock_EmptyUserBlock",
+        "Name": "입력할 사용자 블럭 정보 없음"
+    },
+    "SaveUserBlock_MemberNoRequired": {
+        "Error": "SaveUserBlock_MemberNoRequired",
+        "Name": "스마게 계정 아이디 필요"
+    },
+    "SaveUserBlock_UIDRequired": {
+        "Error": "SaveUserBlock_UIDRequired",
+        "Name": "사용자 유니크 아이디 필요"
+    },
+    "SaveUserBlock_BlockReasonIDRequired": {
+        "Error": "SaveUserBlock_BlockReasonIDRequired",
+        "Name": "블럭 사유 필요"
+    },
+    "SaveUserBlock_BlockReasonStrRequired": {
+        "Error": "SaveUserBlock_BlockReasonStrRequired",
+        "Name": "블럭사유 내용 필요"
+    },
+    "SaveUserBlock_NotMatchedBlockReasonID": {
+        "Error": "SaveUserBlock_NotMatchedBlockReasonID",
+        "Name": "일치하는 블럭사유 아이디 없음"
+    },
+    "SaveUserBlock_NotFoundUserBlockForUpdate": {
+        "Error": "SaveUserBlock_NotFoundUserBlockForUpdate",
+        "Name": "수정할 사용자 블럭정보 없음"
+    },
+    "SaveUserBlock_StartTimeRequired": {
+        "Error": "SaveUserBlock_StartTimeRequired",
+        "Name": "블럭 시작시간 정보필요"
+    },
+    "SaveUserBlock_EndTimeRequired": {
+        "Error": "SaveUserBlock_EndTimeRequired",
+        "Name": "블럭 종료시간 정보필요"
+    },
+    "SaveUserBlock_FailedToInsert": {
+        "Error": "SaveUserBlock_FailedToInsert",
+        "Name": "사용자 블럭정보 입력 실패"
+    },
+    "SaveUserBlock_FailedToUpdate": {
+        "Error": "SaveUserBlock_FailedToUpdate",
+        "Name": "사용자 블럭정보 수정 실패"
+    },
+    "DeleteUserBlock_EmptyUserBlock": {
+        "Error": "DeleteUserBlock_EmptyUserBlock",
+        "Name": "삭제할 사용자 블럭 정보 없음"
+    },
+    "DeleteUserBlock_MemberNoRequired": {
+        "Error": "DeleteUserBlock_MemberNoRequired",
+        "Name": "스마게 계정 아이디 필요"
+    },
+    "DeleteUserBlock_SeqIDRequired": {
+        "Error": "DeleteUserBlock_SeqIDRequired",
+        "Name": "사용자 블럭 고유번호 필요"
+    },
+    "DeleteUserBlock_NotFoundUserBlock": {
+        "Error": "DeleteUserBlock_NotFoundUserBlock",
+        "Name": "사용자 블럭 정보 검색실패"
+    },
+    "DeleteUserBlock_FailedToDelete": {
+        "Error": "DeleteUserBlock_FailedToDelete",
+        "Name": "사용자 블럭 정보 삭제실패"
+    },
+    "UserDevice_UIDRequired": {
+        "Error": "UserDevice_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "UserDevice_NotFoundData": {
+        "Error": "UserDevice_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "WeaponCategory_UIDRequired": {
+        "Error": "WeaponCategory_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "WeaponCategory_NotFoundData": {
+        "Error": "WeaponCategory_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveWeaponCategories_EmptyData": {
+        "Error": "SaveWeaponCategories_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveWeaponCategories_UIDRequired": {
+        "Error": "SaveWeaponCategories_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveWeaponCategories_WeaponCategoryIDRequired": {
+        "Error": "SaveWeaponCategories_WeaponCategoryIDRequired",
+        "Name": "무기 카테고리 아이디 필요"
+    },
+    "SaveWeaponCategories_ExpZeroOrMore": {
+        "Error": "SaveWeaponCategories_ExpZeroOrMore",
+        "Name": "카테고리 레벨은 0이상"
+    },
+    "SaveWeaponCategories_NotFoundUserAccount": {
+        "Error": "SaveWeaponCategories_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveWeaponCategories_FailedToInsert": {
+        "Error": "SaveWeaponCategories_FailedToInsert",
+        "Name": "테이터 추가 실패"
+    },
+    "SaveWeaponCategories_FailedToUpdate": {
+        "Error": "SaveWeaponCategories_FailedToUpdate",
+        "Name": "테이터 추가 실패"
+    },
+    "DeleteWeaponCategories_EmptyData": {
+        "Error": "DeleteWeaponCategories_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteWeaponCategories_UIDRequired": {
+        "Error": "DeleteWeaponCategories_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "DeleteWeaponCategories_WeaponCategoryIDRequired": {
+        "Error": "DeleteWeaponCategories_WeaponCategoryIDRequired",
+        "Name": "무기 카테고리 아이디 필요"
+    },
+    "DeleteWeaponCategories_NotFoundUserAccount": {
+        "Error": "DeleteWeaponCategories_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "DeleteWeaponCategories_NotFoundAnyData": {
+        "Error": "DeleteWeaponCategories_NotFoundAnyData",
+        "Name": "데이터 없음"
+    },
+    "DeleteWeaponCategories_NotFoundData": {
+        "Error": "DeleteWeaponCategories_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteWeaponCategories_FailedToDelete": {
+        "Error": "DeleteWeaponCategories_FailedToDelete",
+        "Name": "테이터 삭제 실패"
+    },
+    "GMAuthorize_NotFoundCode": {
+        "Error": "GMAuthorize_NotFoundCode",
+        "Name": "인증 코드없음"
+    },
+    "GMAuthorize_NotFoundClientId": {
+        "Error": "GMAuthorize_NotFoundClientId",
+        "Name": "클라이언트 아이디 없음"
+    },
+    "GMAuthorize_ClientIdMustGuid": {
+        "Error": "GMAuthorize_ClientIdMustGuid",
+        "Name": "클라이언트 아이디 형식 오류"
+    },
+    "GMAuthorize_NotAllowedClientId": {
+        "Error": "GMAuthorize_NotAllowedClientId",
+        "Name": "허가된 클라이언트 아이디 아님"
+    },
+    "GMAuthorize_NotFoundUser": {
+        "Error": "GMAuthorize_NotFoundUser",
+        "Name": "유저정보 없음"
+    },
+    "GMAuthorize_AlreadySignIn": {
+        "Error": "GMAuthorize_AlreadySignIn",
+        "Name": "이미 로그인됨"
+    },
+    "GMAuthorize_AuthExpired": {
+        "Error": "GMAuthorize_AuthExpired",
+        "Name": "로그인 정보 만료"
+    },
+    "GMAuthorize_FailedToReIssueToken": {
+        "Error": "GMAuthorize_FailedToReIssueToken",
+        "Name": "토큰 재발급 실패"
+    },
+    "GMAuthorize_FailedSignIn": {
+        "Error": "GMAuthorize_FailedSignIn",
+        "Name": "로그인 실패"
+    },
+    "GMAuthorize_NotFoundToken": {
+        "Error": "GMAuthorize_NotFoundToken",
+        "Name": "토큰 확인 실패"
+    },
+    "ManagesUser_UserIDRequired": {
+        "Error": "ManagesUser_UserIDRequired",
+        "Name": "관리자 계정 고유번호 필요"
+    },
+    "ManagesUser_NotFoundUser": {
+        "Error": "ManagesUser_NotFoundUser",
+        "Name": "관리자 계정 정보 없음"
+    },
+    "ManagesAddUser_RequiredUserName": {
+        "Error": "ManagesAddUser_RequiredUserName",
+        "Name": "관리자 이름 필요"
+    },
+    "ManagesAddUser_RequiredUserEmail": {
+        "Error": "ManagesAddUser_RequiredUserEmail",
+        "Name": "관리자 이메일 필요"
+    },
+    "ManagesAddUser_MustUseCompanyMail": {
+        "Error": "ManagesAddUser_MustUseCompanyMail",
+        "Name": "회사 이메일 필요"
+    },
+    "ManagesAddUser_CanNotInsertSuper": {
+        "Error": "ManagesAddUser_CanNotInsertSuper",
+        "Name": "슈퍼계정 이름으로는 추가할수 없음"
+    },
+    "ManagesAddUser_FailedToInsert": {
+        "Error": "ManagesAddUser_FailedToInsert",
+        "Name": "추가 실패"
+    },
+    "ManagesDeleteUser_RequiredUserID": {
+        "Error": "ManagesDeleteUser_RequiredUserID",
+        "Name": "관리자 계정 고유번호 필요"
+    },
+    "ManagesDeleteUser_NotFoundUser": {
+        "Error": "ManagesDeleteUser_NotFoundUser",
+        "Name": "관리자 계정 정보 없음"
+    },
+    "ManagesDeleteUser_NotFoundUserEmail": {
+        "Error": "ManagesDeleteUser_NotFoundUserEmail",
+        "Name": "관리자 이메일 정보 없음"
+    },
+    "ManagesDeleteUser_CanNotDelSuperUser": {
+        "Error": "ManagesDeleteUser_CanNotDelSuperUser",
+        "Name": "최고 관리자 계정 삭제 불가"
+    },
+    "ManagesDeleteUser_FailedToDeleteUser": {
+        "Error": "ManagesDeleteUser_FailedToDeleteUser",
+        "Name": "삭제 실패"
+    },
+    "ManagesRestoreUser_RequiredUserID": {
+        "Error": "ManagesRestoreUser_RequiredUserID",
+        "Name": "관리자 계정 고유번호 필요"
+    },
+    "ManagesRestoreUser_NotFoundUser": {
+        "Error": "ManagesRestoreUser_NotFoundUser",
+        "Name": "관리자 계정 정보 없음"
+    },
+    "ManagesRestoreUser_FailedToRestoreUser": {
+        "Error": "ManagesRestoreUser_FailedToRestoreUser",
+        "Name": "복원 실패"
+    },
+    "ManagesResetCountFailedSignin_RequiredUserID": {
+        "Error": "ManagesResetCountFailedSignin_RequiredUserID",
+        "Name": "관리자 계정 고유번호 필요"
+    },
+    "ManagesResetCountFailedSignin_NotFoundUser": {
+        "Error": "ManagesResetCountFailedSignin_NotFoundUser",
+        "Name": "관리자 계정 정보 없음"
+    },
+    "ManagesResetCountFailedSignin_FailedToReset": {
+        "Error": "ManagesResetCountFailedSignin_FailedToReset",
+        "Name": "초기화 실패"
+    },
+    "ManagesResetLatestSignIn_RequiredUserID": {
+        "Error": "ManagesResetLatestSignIn_RequiredUserID",
+        "Name": "관리자 계정 고유번호 필요"
+    },
+    "ManagesResetLatestSignIn_NotFoundUser": {
+        "Error": "ManagesResetLatestSignIn_NotFoundUser",
+        "Name": "관리자 계정 정보 없음"
+    },
+    "ManagesResetLatestSignIn_FailedToReset": {
+        "Error": "ManagesResetLatestSignIn_FailedToReset",
+        "Name": "초기화 실패"
+    },
+    "ManagesSaveUserRole_RequiredUserID": {
+        "Error": "ManagesSaveUserRole_RequiredUserID",
+        "Name": "관리자 계정 고유번호 필요"
+    },
+    "ManagesSaveUserRole_NotFoundUser": {
+        "Error": "ManagesSaveUserRole_NotFoundUser",
+        "Name": "관리자 계정 정보 없음"
+    },
+    "ManagesSaveUserRole_NotFoundUserEmail": {
+        "Error": "ManagesSaveUserRole_NotFoundUserEmail",
+        "Name": "관리자 이메일 정보 없음"
+    },
+    "ManagesSaveUserRole_CanNotModifySuperUser": {
+        "Error": "ManagesSaveUserRole_CanNotModifySuperUser",
+        "Name": "최고 관리자 계정 권한 수정 불가"
+    },
+    "ManagesSaveUserRole_CanNotAddSuperRole": {
+        "Error": "ManagesSaveUserRole_CanNotAddSuperRole",
+        "Name": "최고 관리자 권한 부여 불가"
+    },
+    "VersionInfos_FailedToSearchVersionInfo": {
+        "Error": "VersionInfos_FailedToSearchVersionInfo",
+        "Name": "버전정보 검색실패"
+    },
+    "VersionInfo_VersionRequired": {
+        "Error": "VersionInfo_VersionRequired",
+        "Name": "버전 정보필요"
+    },
+    "VersionInfo_PlatformRequired": {
+        "Error": "VersionInfo_PlatformRequired",
+        "Name": "플랫폼 정보필요"
+    },
+    "VersionInfo_NotFoundData": {
+        "Error": "VersionInfo_NotFoundData",
+        "Name": "버전정보 검색실패"
+    },
+    "SaveVersionInfo_EmptyVersionInfo": {
+        "Error": "SaveVersionInfo_EmptyVersionInfo",
+        "Name": "입력할 버전정보 없음"
+    },
+    "SaveVersionInfo_VersionRequired": {
+        "Error": "SaveVersionInfo_VersionRequired",
+        "Name": "버전 정보필요"
+    },
+    "SaveVersionInfo_PlatformRequired": {
+        "Error": "SaveVersionInfo_PlatformRequired",
+        "Name": "플랫폼 정보필요"
+    },
+    "SaveVersionInfo_IsValidRequired": {
+        "Error": "SaveVersionInfo_IsValidRequired",
+        "Name": "사용여부 정보필요"
+    },
+    "SaveVersionInfo_ServerStateRequired": {
+        "Error": "SaveVersionInfo_ServerStateRequired",
+        "Name": "서버상태 정보필요"
+    },
+    "SaveVersionInfo_ClientStateRequired": {
+        "Error": "SaveVersionInfo_ClientStateRequired",
+        "Name": "클라이언트 상태 정보필요"
+    },
+    "SaveVersionInfo_CDNInfoRequired": {
+        "Error": "SaveVersionInfo_CDNInfoRequired",
+        "Name": "CDN 주소 정보필요"
+    },
+    "SaveVersionInfo_DuplicateVersionInfo": {
+        "Error": "SaveVersionInfo_DuplicateVersionInfo",
+        "Name": "같은 버전의 데이터 있음"
+    },
+    "SaveVersionInfo_NotFoundVersionInfoForUpdate": {
+        "Error": "SaveVersionInfo_NotFoundVersionInfoForUpdate",
+        "Name": "수정할 버전정보 검색실패"
+    },
+    "SaveVersionInfo_FailedToInsert": {
+        "Error": "SaveVersionInfo_FailedToInsert",
+        "Name": "버전정보 생성실패"
+    },
+    "SaveVersionInfo_FailedToUpdate": {
+        "Error": "SaveVersionInfo_FailedToUpdate",
+        "Name": "버전정보 수정실패"
+    },
+    "DeleteVersionInfo_EmptyVersionInfo": {
+        "Error": "DeleteVersionInfo_EmptyVersionInfo",
+        "Name": "삭제할 버전정보 없음"
+    },
+    "DeleteVersionInfo_VersionRequired": {
+        "Error": "DeleteVersionInfo_VersionRequired",
+        "Name": "버전 정보필요"
+    },
+    "DeleteVersionInfo_PlatformRequired": {
+        "Error": "DeleteVersionInfo_PlatformRequired",
+        "Name": "플랫폼 정보필요"
+    },
+    "DeleteVersionInfo_NotFoundVersionInfo": {
+        "Error": "DeleteVersionInfo_NotFoundVersionInfo",
+        "Name": "버전정보 검색실패"
+    },
+    "DeleteVersionInfo_FailedToDelete": {
+        "Error": "DeleteVersionInfo_FailedToDelete",
+        "Name": "버전정보 삭제실패"
+    },
+    "DownloadVersionInfo_VersionRequired": {
+        "Error": "DownloadVersionInfo_VersionRequired",
+        "Name": "버전 정보필요"
+    },
+    "DownloadVersionInfo_PlatformRequired": {
+        "Error": "DownloadVersionInfo_PlatformRequired",
+        "Name": "플랫폼 정보필요"
+    },
+    "DownloadVersionInfo_NotFoundVersionInfo": {
+        "Error": "DownloadVersionInfo_NotFoundVersionInfo",
+        "Name": "버전정보 검색실패"
+    },
+    "DownloadVersionInfo_FailedToSerializeData": {
+        "Error": "DownloadVersionInfo_FailedToSerializeData",
+        "Name": "버전정보 Byte 변환 실패"
+    },
+    "Maintenances_NotFoundMaintenances": {
+        "Error": "Maintenances_NotFoundMaintenances",
+        "Name": "서비스 상태 정보 검색실패"
+    },
+    "SaveMaintenances_EmptyMaintenance": {
+        "Error": "SaveMaintenances_EmptyMaintenance",
+        "Name": "입력할 서비스 상태 정보 없음"
+    },
+    "SaveMaintenances_PlatformRequired": {
+        "Error": "SaveMaintenances_PlatformRequired",
+        "Name": "플랫폼 정보필요"
+    },
+    "SaveMaintenances_AreaRequired": {
+        "Error": "SaveMaintenances_AreaRequired",
+        "Name": "지역 정보필요"
+    },
+    "SaveMaintenances_StateRequired": {
+        "Error": "SaveMaintenances_StateRequired",
+        "Name": "점검상태 정보필요"
+    },
+    "SaveMaintenances_StartTimeRequired": {
+        "Error": "SaveMaintenances_StartTimeRequired",
+        "Name": "점검 시작시간 정보필요"
+    },
+    "SaveMaintenances_EndTimeRequired": {
+        "Error": "SaveMaintenances_EndTimeRequired",
+        "Name": "점검 종료시간 정보필요"
+    },
+    "SaveMaintenances_NoticeStrIDRequired": {
+        "Error": "SaveMaintenances_NoticeStrIDRequired",
+        "Name": "공지 문구 ID 필요"
+    },
+    "SaveMaintenances_UpdateStrIDRequired": {
+        "Error": "SaveMaintenances_UpdateStrIDRequired",
+        "Name": "업데이트 문구 ID 필요"
+    },
+    "SaveMaintenances_RecomUpdateStrIDRequired": {
+        "Error": "SaveMaintenances_RecomUpdateStrIDRequired",
+        "Name": "권장 업데이트 문구 ID 필요"
+    },
+    "SaveMaintenances_DuplicateMaintenance": {
+        "Error": "SaveMaintenances_DuplicateMaintenance",
+        "Name": "같은 플랫폼 지역의 데이터 있음"
+    },
+    "SaveMaintenances_NotFoundMaintenanceForUpdate": {
+        "Error": "SaveMaintenances_NotFoundMaintenanceForUpdate",
+        "Name": "수정할 서비스 상태 정보 검색실패"
+    },
+    "SaveMaintenances_FailedToInsert": {
+        "Error": "SaveMaintenances_FailedToInsert",
+        "Name": "서비스 상태 정보 생성실패"
+    },
+    "SaveMaintenances_FailedToUpdate": {
+        "Error": "SaveMaintenances_FailedToUpdate",
+        "Name": "서비스 상태 정보 수정실패"
+    },
+    "DeleteMaintenance_EmptyMaintenance": {
+        "Error": "DeleteMaintenance_EmptyMaintenance",
+        "Name": "삭제할 서비스 상태 정보 없음"
+    },
+    "DeleteMaintenance_MaintenanceIDRequired": {
+        "Error": "DeleteMaintenance_MaintenanceIDRequired",
+        "Name": "삭제할 서비스 상태 ID 필요"
+    },
+    "DeleteMaintenance_NotFoundData": {
+        "Error": "DeleteMaintenance_NotFoundData",
+        "Name": "서비스 상태 정보 검색실패"
+    },
+    "DeleteMaintenance_FailedToDelete": {
+        "Error": "DeleteMaintenance_FailedToDelete",
+        "Name": "서비스 상태 정보 삭제실패"
+    },
+    "ChattingNotice_ChattingNoticeIDRequired": {
+        "Error": "ChattingNotice_ChattingNoticeIDRequired",
+        "Name": "채팅공지 아이디 필요"
+    },
+    "ChattingNotice_ChattingNoticeIDMustGuid": {
+        "Error": "ChattingNotice_ChattingNoticeIDMustGuid",
+        "Name": "채팅공지 아이디는 Guid 형식"
+    },
+    "ChattingNotice_ChattingNoticeIDEmpty": {
+        "Error": "ChattingNotice_ChattingNoticeIDEmpty",
+        "Name": "채팅공지 아이디 변환 실패"
+    },
+    "ChattingNotice_NotFoundData": {
+        "Error": "ChattingNotice_NotFoundData",
+        "Name": "채팅공지 정보 검색실패"
+    },
+    "SaveChattingNotices_EmptyChattingNotice": {
+        "Error": "SaveChattingNotices_EmptyChattingNotice",
+        "Name": "입력할 채팅공지 정보 없음"
+    },
+    "SaveChattingNotices_IDRequired": {
+        "Error": "SaveChattingNotices_IDRequired",
+        "Name": "채팅공지 아이디 필요"
+    },
+    "SaveChattingNotices_MessageRequired": {
+        "Error": "SaveChattingNotices_MessageRequired",
+        "Name": "공지내용 필요"
+    },
+    "SaveChattingNotices_NoticeTypeRequired": {
+        "Error": "SaveChattingNotices_NoticeTypeRequired",
+        "Name": "공지형식 필요"
+    },
+    "SaveChattingNotices_VisibleTimeRequired": {
+        "Error": "SaveChattingNotices_VisibleTimeRequired",
+        "Name": "공지 유지시간 필요"
+    },
+    "SaveChattingNotices_VisibleCountRequired": {
+        "Error": "SaveChattingNotices_VisibleCountRequired",
+        "Name": "공지 반복횟수 필요"
+    },
+    "SaveChattingNotices_NoticeTimeRequired": {
+        "Error": "SaveChattingNotices_NoticeTimeRequired",
+        "Name": "공지시간 필요"
+    },
+    "SaveChattingNotices_NotFoundChattingNoticeForUpdate": {
+        "Error": "SaveChattingNotices_NotFoundChattingNoticeForUpdate",
+        "Name": "수정할 채팅공지 정보 검색실패"
+    },
+    "SaveChattingNotices_FailedToInsert": {
+        "Error": "SaveChattingNotices_FailedToInsert",
+        "Name": "채팅공지 추가실패"
+    },
+    "SaveChattingNotices_FailedToUpdate": {
+        "Error": "SaveChattingNotices_FailedToUpdate",
+        "Name": "채팅공지 수정실패"
+    },
+    "DeleteChattingNotice_EmptyChattingNotice": {
+        "Error": "DeleteChattingNotice_EmptyChattingNotice",
+        "Name": "삭제할 채팅공지 정보 없음"
+    },
+    "DeleteChattingNotice_ChattingNoticeIDRequired": {
+        "Error": "DeleteChattingNotice_ChattingNoticeIDRequired",
+        "Name": "삭제할 채팅공지 ID 필요"
+    },
+    "DeleteChattingNotice_NotFoundChattingNotice": {
+        "Error": "DeleteChattingNotice_NotFoundChattingNotice",
+        "Name": "채팅공지 정보 검색실패"
+    },
+    "DeleteChattingNotice_FailedToDelete": {
+        "Error": "DeleteChattingNotice_FailedToDelete",
+        "Name": "채팅공지 정보 삭제실패"
+    },
+    "ImmediatelyChattingNotice_EmptyChattingNotice": {
+        "Error": "ImmediatelyChattingNotice_EmptyChattingNotice",
+        "Name": "즉시 공지할 채팅공지 정보 없음"
+    },
+    "ImmediatelyChattingNotice_ChattingNoticeIDRequired": {
+        "Error": "ImmediatelyChattingNotice_ChattingNoticeIDRequired",
+        "Name": "즉시 공지할 채팅공지 ID 필요"
+    },
+    "ImmediatelyChattingNotice_NotFoundChattingNotice": {
+        "Error": "ImmediatelyChattingNotice_NotFoundChattingNotice",
+        "Name": "즉시 공지할 채팅공지 정보 검색실패"
+    },
+    "ImmediatelyChattingNotice_FailedToNotice": {
+        "Error": "ImmediatelyChattingNotice_FailedToNotice",
+        "Name": "채팅 즉시공지 실패"
+    },
+    "SearchUserAccounts_UIDRequired": {
+        "Error": "SearchUserAccounts_UIDRequired",
+        "Name": "검색할 사용자 UID 필요"
+    },
+    "SearchUserAccounts_UIDMustInt64": {
+        "Error": "SearchUserAccounts_UIDMustInt64",
+        "Name": "UID는 정수"
+    },
+    "SearchUserAccounts_NotFoundUserAccount": {
+        "Error": "SearchUserAccounts_NotFoundUserAccount",
+        "Name": "사용자 정보 없음"
+    },
+    "SearchUserAccountsByMemberNo_MemberNoRequired": {
+        "Error": "SearchUserAccountsByMemberNo_MemberNoRequired",
+        "Name": "검색할 사용자 UID 필요"
+    },
+    "SearchUserAccountsByMemberNo_MemberNoMustUInt64": {
+        "Error": "SearchUserAccountsByMemberNo_MemberNoMustUInt64",
+        "Name": "UID는 정수"
+    },
+    "SearchUserAccountsByMemberNo_NotFoundUserAccount": {
+        "Error": "SearchUserAccountsByMemberNo_NotFoundUserAccount",
+        "Name": "사용자 정보 없음"
+    },
+    "ImmediatelySendMail_UIDRequired": {
+        "Error": "ImmediatelySendMail_UIDRequired",
+        "Name": "우편 발송대상 사용자 UID 필요"
+    },
+    "ImmediatelySendMail_UIDMustInt64": {
+        "Error": "ImmediatelySendMail_UIDMustInt64",
+        "Name": "UID는 정수"
+    },
+    "ImmediatelySendMail_NotFoundUserAccount": {
+        "Error": "ImmediatelySendMail_NotFoundUserAccount",
+        "Name": "사용자 정보 없음"
+    },
+    "ImmediatelySendMail_EmptyToSendMail": {
+        "Error": "ImmediatelySendMail_EmptyToSendMail",
+        "Name": "즉시 발송할 우편 정보 없음"
+    },
+    "ImmediatelySendMail_TitleRequired": {
+        "Error": "ImmediatelySendMail_TitleRequired",
+        "Name": "우편제목 필요"
+    },
+    "ImmediatelySendMail_ItemIDRequired": {
+        "Error": "ImmediatelySendMail_ItemIDRequired",
+        "Name": "발송할 아이템 아이디 필요"
+    },
+    "ImmediatelySendMail_ItemCountMustUpperZero": {
+        "Error": "ImmediatelySendMail_ItemCountMustUpperZero",
+        "Name": "발송할 아이템 수량은 0이상"
+    },
+    "ImmediatelySendMail_MessageRequired": {
+        "Error": "ImmediatelySendMail_MessageRequired",
+        "Name": "우편내용 필요"
+    },
+    "ImmediatelySendMail_FailedToClaimMailID": {
+        "Error": "ImmediatelySendMail_FailedToClaimMailID",
+        "Name": "우편 아이디 발급실패"
+    },
+    "ImmediatelySendMail_FailedToSendMail": {
+        "Error": "ImmediatelySendMail_FailedToSendMail",
+        "Name": "우편발송 실패"
+    },
+    "SendGameMail_UIDRequired": {
+        "Error": "SendGameMail_UIDRequired",
+        "Name": "우편 발송대상 사용자 UID 필요"
+    },
+    "SendGameMail_UIDMustInt64": {
+        "Error": "SendGameMail_UIDMustInt64",
+        "Name": "UID는 정수"
+    },
+    "SendGameMail_NotFoundUserAccount": {
+        "Error": "SendGameMail_NotFoundUserAccount",
+        "Name": "사용자 정보 없음"
+    },
+    "SendGameMail_EmptyToSendMail": {
+        "Error": "SendGameMail_EmptyToSendMail",
+        "Name": "즉시 발송할 우편 정보 없음"
+    },
+    "SendGameMail_TitleRequired": {
+        "Error": "SendGameMail_TitleRequired",
+        "Name": "우편제목 필요"
+    },
+    "SendGameMail_ItemIDRequired": {
+        "Error": "SendGameMail_ItemIDRequired",
+        "Name": "발송할 아이템 아이디 필요"
+    },
+    "SendGameMail_ItemCountMustUpperZero": {
+        "Error": "SendGameMail_ItemCountMustUpperZero",
+        "Name": "발송할 아이템 수량은 0이상"
+    },
+    "SendGameMail_MessageRequired": {
+        "Error": "SendGameMail_MessageRequired",
+        "Name": "우편내용 필요"
+    },
+    "SendGameMail_FailedToClaimMailID": {
+        "Error": "SendGameMail_FailedToClaimMailID",
+        "Name": "우편 아이디 발급실패"
+    },
+    "SendGameMail_FailedToSendMail": {
+        "Error": "SendGameMail_FailedToSendMail",
+        "Name": "우편발송 실패"
+    },
+    "SendGameMail_NotSuitableUserId": {
+        "Error": "SendGameMail_NotSuitableUserId",
+        "Name": "부적합한 관리자 아이디"
+    },
+    "SendGameMail_FailedToInsertJob": {
+        "Error": "SendGameMail_FailedToInsertJob",
+        "Name": "일괄처리 작업 등록실패"
+    },
+    "ManagerLogs_StartTimeRequired": {
+        "Error": "ManagerLogs_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "ManagerLogs_StartTimeNotSuitableDateTime": {
+        "Error": "ManagerLogs_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "ManagerLogs_EndTimeRequired": {
+        "Error": "ManagerLogs_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "ManagerLogs_EndTimeNotSuitableDateTime": {
+        "Error": "ManagerLogs_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "ManagerLogs_SearchPeriodLimit": {
+        "Error": "ManagerLogs_SearchPeriodLimit",
+        "Name": "검색기간 넘음"
+    },
+    "ManagerLogs_FailedToSearch": {
+        "Error": "ManagerLogs_FailedToSearch",
+        "Name": "검색 실패"
+    },
+    "ManagerLogs_NotFoundData": {
+        "Error": "ManagerLogs_NotFoundData",
+        "Name": "검색된 데이터 없음"
+    },
+    "DownloadManagerLogs_StartTimeRequired": {
+        "Error": "DownloadManagerLogs_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "DownloadManagerLogs_StartTimeNotSuitableDateTime": {
+        "Error": "DownloadManagerLogs_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "DownloadManagerLogs_EndTimeRequired": {
+        "Error": "DownloadManagerLogs_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "DownloadManagerLogs_EndTimeNotSuitableDateTime": {
+        "Error": "DownloadManagerLogs_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "DownloadManagerLogs_SearchPeriodLimit": {
+        "Error": "DownloadManagerLogs_SearchPeriodLimit",
+        "Name": "검색기간 넘음"
+    },
+    "DownloadManagerLogs_FailedToSearch": {
+        "Error": "DownloadManagerLogs_FailedToSearch",
+        "Name": "검색 실패"
+    },
+    "DownloadManagerLogs_NotFoundData": {
+        "Error": "DownloadManagerLogs_NotFoundData",
+        "Name": "검색된 데이터 없음"
+    },
+    "DownloadManagerLogs_FailedToConvertExcel": {
+        "Error": "DownloadManagerLogs_FailedToConvertExcel",
+        "Name": "엑셀 데이터 변환 실패"
+    },
+    "DownloadManagerLogs_FailedToSerializeData": {
+        "Error": "DownloadManagerLogs_FailedToSerializeData",
+        "Name": "Byte 변환 실패"
+    },
+    "BiskitLogs_StartTimeRequired": {
+        "Error": "BiskitLogs_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "BiskitLogs_StartTimeNotSuitableDateTime": {
+        "Error": "BiskitLogs_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "BiskitLogs_EndTimeRequired": {
+        "Error": "BiskitLogs_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "BiskitLogs_EndTimeNotSuitableDateTime": {
+        "Error": "BiskitLogs_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "BiskitLogs_UserSearchTypeRequired": {
+        "Error": "BiskitLogs_UserSearchTypeRequired",
+        "Name": "사용자 검색방식 구분값 필요"
+    },
+    "BiskitLogs_OneOrMoreSearchValueRequired": {
+        "Error": "BiskitLogs_OneOrMoreSearchValueRequired",
+        "Name": "하나 이상의 검색값 필요"
+    },
+    "BiskitLogs_NotSuitableEventID": {
+        "Error": "BiskitLogs_NotSuitableEventID",
+        "Name": "적합한 이벤트 아이디 없음"
+    },
+    "BiskitLogs_FailedToSearch": {
+        "Error": "BiskitLogs_FailedToSearch",
+        "Name": "검색 실패"
+    },
+    "BiskitLogs_TooManyData": {
+        "Error": "BiskitLogs_TooManyData",
+        "Name": "검색된 데이터가 너무 많음"
+    },
+    "BiskitLogs_NotFoundData": {
+        "Error": "BiskitLogs_NotFoundData",
+        "Name": "검색된 데이터 없음"
+    },
+    "DownloadGameLogs_StartTimeRequired": {
+        "Error": "DownloadGameLogs_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "DownloadGameLogs_StartTimeNotSuitableDateTime": {
+        "Error": "DownloadGameLogs_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "DownloadGameLogs_EndTimeRequired": {
+        "Error": "DownloadGameLogs_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "DownloadGameLogs_EndTimeNotSuitableDateTime": {
+        "Error": "DownloadGameLogs_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "DownloadGameLogs_UserSearchTypeRequired": {
+        "Error": "DownloadGameLogs_UserSearchTypeRequired",
+        "Name": "사용자 검색방식 구분값 필요"
+    },
+    "DownloadGameLogs_OneOrMoreSearchValueRequired": {
+        "Error": "DownloadGameLogs_OneOrMoreSearchValueRequired",
+        "Name": "하나 이상의 검색값 필요"
+    },
+    "DownloadGameLogs_NotSuitableEventID": {
+        "Error": "DownloadGameLogs_NotSuitableEventID",
+        "Name": "적합한 이벤트 아이디 없음"
+    },
+    "DownloadGameLogs_EventIdSeqIDMustInteger": {
+        "Error": "DownloadGameLogs_EventIdSeqIDMustInteger",
+        "Name": "이벤트 아이디 고유 아이디는 숫자"
+    },
+    "DownloadGameLogs_NotFoundSuitableEventId": {
+        "Error": "DownloadGameLogs_NotFoundSuitableEventId",
+        "Name": "적합한 이벤트 아이디 정보 없음"
+    },
+    "DownloadGameLogs_FailedToSearch": {
+        "Error": "DownloadGameLogs_FailedToSearch",
+        "Name": "검색 실패"
+    },
+    "DownloadGameLogs_TooManyData": {
+        "Error": "DownloadGameLogs_TooManyData",
+        "Name": "검색된 데이터가 많음"
+    },
+    "DownloadGameLogs_NotFoundData": {
+        "Error": "DownloadGameLogs_NotFoundData",
+        "Name": "검색된 데이터 너무 없음"
+    },
+    "DownloadGameLogs_FailedToConvertExcel": {
+        "Error": "DownloadGameLogs_FailedToConvertExcel",
+        "Name": "엑셀 데이터 변환 실패"
+    },
+    "DownloadGameLogs_FailedToSerializeData": {
+        "Error": "DownloadGameLogs_FailedToSerializeData",
+        "Name": "Byte 변환 실패"
+    },
+    "NoticeBanner_NotFoundData": {
+        "Error": "NoticeBanner_NotFoundData",
+        "Name": "검색실패"
+    },
+    "SaveNoticeBanners_EmptySaveData": {
+        "Error": "SaveNoticeBanners_EmptySaveData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveNoticeBanners_TitleRequired": {
+        "Error": "SaveNoticeBanners_TitleRequired",
+        "Name": "팝업배너 제목 필요"
+    },
+    "SaveNoticeBanners_FailedToInsert": {
+        "Error": "SaveNoticeBanners_FailedToInsert",
+        "Name": "팝업배너 추가실패"
+    },
+    "SaveNoticeBanners_FailedToUpdate": {
+        "Error": "SaveNoticeBanners_FailedToUpdate",
+        "Name": "팝업배너 수정실패"
+    },
+    "DeleteNoticeBanners_EmptySaveData": {
+        "Error": "DeleteNoticeBanners_EmptySaveData",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteNoticeBanners_BannerIDRequired": {
+        "Error": "DeleteNoticeBanners_BannerIDRequired",
+        "Name": "팝업배너 아이디 필요"
+    },
+    "DeleteNoticeBanners_NotFoundData": {
+        "Error": "DeleteNoticeBanners_NotFoundData",
+        "Name": "팝업배너 없음"
+    },
+    "DeleteNoticeBanners_FailedToDelete": {
+        "Error": "DeleteNoticeBanners_FailedToDelete",
+        "Name": "팝업배너 삭제실패"
+    },
+    "InitEmailPassword_ConfirmIDRequired": {
+        "Error": "InitEmailPassword_ConfirmIDRequired",
+        "Name": "컨펌 아이디 필요"
+    },
+    "InitEmailPassword_PasswordRequired": {
+        "Error": "InitEmailPassword_PasswordRequired",
+        "Name": "비밀번호 필요"
+    },
+    "InitEmailPassword_NotEnoughPasswordRule": {
+        "Error": "InitEmailPassword_NotEnoughPasswordRule",
+        "Name": "비밀번호 규칙 안맞음"
+    },
+    "InitEmailPassword_NotFoundData": {
+        "Error": "InitEmailPassword_NotFoundData",
+        "Name": "계정 없음"
+    },
+    "InitEmailPassword_AlreadyUsedPassword": {
+        "Error": "InitEmailPassword_AlreadyUsedPassword",
+        "Name": "이미 사용된 비밀번호"
+    },
+    "InitEmailPassword_FailedToInit": {
+        "Error": "InitEmailPassword_FailedToInit",
+        "Name": "비밀번호 초기화 실패"
+    },
+    "InitEmailPassword_FailedToConfirm": {
+        "Error": "InitEmailPassword_FailedToConfirm",
+        "Name": "비밀번호 초기화 실패"
+    },
+    "SignInEmail_ClientIdRequired": {
+        "Error": "SignInEmail_ClientIdRequired",
+        "Name": "클라이언트 아이디 필요"
+    },
+    "SignInEmail_ClientIdMustGuid": {
+        "Error": "SignInEmail_ClientIdMustGuid",
+        "Name": "클라이언트 아이디는 Guid 형식"
+    },
+    "SignInEmail_NotAllowedClientId": {
+        "Error": "SignInEmail_NotAllowedClientId",
+        "Name": "허가된 클라이언트 아이디 아님"
+    },
+    "SignInEmail_AlreadySignIn": {
+        "Error": "SignInEmail_AlreadySignIn",
+        "Name": "이미 로그인됨"
+    },
+    "SignInEmail_EmailRequired": {
+        "Error": "SignInEmail_EmailRequired",
+        "Name": "이메일 입력 필요"
+    },
+    "SignInEmail_MustUseCompanyMail": {
+        "Error": "SignInEmail_MustUseCompanyMail",
+        "Name": "회사 메일이 아님"
+    },
+    "SignInEmail_PasswordRequired": {
+        "Error": "SignInEmail_PasswordRequired",
+        "Name": "비밀번호 입력 필요"
+    },
+    "SignInEmail_ConfirmRequired": {
+        "Error": "SignInEmail_ConfirmRequired",
+        "Name": "비밀번호 초기화 중인 계정"
+    },
+    "SignInEmail_DoNotMatchedData": {
+        "Error": "SignInEmail_DoNotMatchedData",
+        "Name": "이메일 또는 비밀번호 불일치"
+    },
+    "SignInEmail_TooManyFailedSignin": {
+        "Error": "SignInEmail_TooManyFailedSignin",
+        "Name": "로그인 실패 허용횟수 초과"
+    },
+    "SignInEmail_TooLongLatestSignin": {
+        "Error": "SignInEmail_TooLongLatestSignin",
+        "Name": "마지막 로그인 오래 경과됨"
+    },
+    "SignInEmail_OAuthEmailNull": {
+        "Error": "SignInEmail_OAuthEmailNull",
+        "Name": "인증된 이메일 정보 없음"
+    },
+    "SignInEmail_OAuthNameNull": {
+        "Error": "SignInEmail_OAuthNameNull",
+        "Name": "인증된 이름 정보 없음"
+    },
+    "SignInEmail_OAuthUidNull": {
+        "Error": "SignInEmail_OAuthUidNull",
+        "Name": "인증된 고유번호 정보 없음"
+    },
+    "SignInEmail_FailedToSaveToken": {
+        "Error": "SignInEmail_FailedToSaveToken",
+        "Name": "토큰 저장실패"
+    },
+    "SignInEmail_FailedSignIn": {
+        "Error": "SignInEmail_FailedSignIn",
+        "Name": "인증 실패"
+    },
+    "SignInEmail_CanNotTrySignIn": {
+        "Error": "SignInEmail_CanNotTrySignIn",
+        "Name": "인증시도 실패"
+    },
+    "ChangePassword_PasswordRequired": {
+        "Error": "ChangePassword_PasswordRequired",
+        "Name": "비밀번호 필요"
+    },
+    "ChangePassword_NewPasswordRequired": {
+        "Error": "ChangePassword_NewPasswordRequired",
+        "Name": "새 비밀번호 필요"
+    },
+    "ChangePassword_NewPasswordConfirmRequired": {
+        "Error": "ChangePassword_NewPasswordConfirmRequired",
+        "Name": "새 비밀번호 확인 필요"
+    },
+    "ChangePassword_NewMustDifferentPassword": {
+        "Error": "ChangePassword_NewMustDifferentPassword",
+        "Name": "새 비밀번호는 기존 비밀번호와 다르게"
+    },
+    "ChangePassword_NotMatchPasswordConfirm": {
+        "Error": "ChangePassword_NotMatchPasswordConfirm",
+        "Name": "새 비밀번호 와 비밀번호 확인 불일치"
+    },
+    "ChangePassword_NotEnoughPasswordRule": {
+        "Error": "ChangePassword_NotEnoughPasswordRule",
+        "Name": "비밀번호 규칙 안맞음"
+    },
+    "ChangePassword_NotEnoughNewPasswordRule": {
+        "Error": "ChangePassword_NotEnoughNewPasswordRule",
+        "Name": "새 비밀번호 규칙 안맞음"
+    },
+    "ChangePassword_NotEnoughNewPasswordConfirmRule": {
+        "Error": "ChangePassword_NotEnoughNewPasswordConfirmRule",
+        "Name": "새 비밀번호 확인 규칙 안맞음"
+    },
+    "ChangePassword_NotFoundUserData": {
+        "Error": "ChangePassword_NotFoundUserData",
+        "Name": "유저정보 없음"
+    },
+    "ChangePassword_NotMatchPassword": {
+        "Error": "ChangePassword_NotMatchPassword",
+        "Name": "기존 비밀번호 불일치"
+    },
+    "ChangePassword_AlreadyUsedPassword": {
+        "Error": "ChangePassword_AlreadyUsedPassword",
+        "Name": "이미 사용된 패스워드"
+    },
+    "ChangePassword_FailedToChange": {
+        "Error": "ChangePassword_FailedToChange",
+        "Name": "비밀번호 변경 실패"
+    },
+    "SetRefreshPassword_EmailRequired": {
+        "Error": "SetRefreshPassword_EmailRequired",
+        "Name": "비밀번호 필요"
+    },
+    "SetRefreshPassword_NotFoundUserData": {
+        "Error": "SetRefreshPassword_NotFoundUserData",
+        "Name": "유저정보 없음"
+    },
+    "SetRefreshPassword_AlreadyInit": {
+        "Error": "SetRefreshPassword_AlreadyInit",
+        "Name": "이미 초기화 상태"
+    },
+    "SetRefreshPassword_FailedToInit": {
+        "Error": "SetRefreshPassword_FailedToInit",
+        "Name": "비밀번호 초기화 실패"
+    },
+    "SaveOpenWorldTime_MinuteMust0To1440": {
+        "Error": "SaveOpenWorldTime_MinuteMust0To1440",
+        "Name": "서버시간(분)은 0과 1440사이"
+    },
+    "SaveOpenWorldTime_MultiplyMust0Point1To10": {
+        "Error": "SaveOpenWorldTime_MultiplyMust0Point1To10",
+        "Name": "시작 분(Minute)은 0.1과 10사이"
+    },
+    "SaveOpenWorldTime_FailedToSaveData": {
+        "Error": "SaveOpenWorldTime_FailedToSaveData",
+        "Name": "오픈월드 시간 저장 실패"
+    },
+    "SaveOpenWorldTime_FailedToPub": {
+        "Error": "SaveOpenWorldTime_FailedToPub",
+        "Name": "오픈월드 시간변경 서버로 Pub 실패"
+    },
+    "SaveGoldClashTime_StartHourMust0To23": {
+        "Error": "SaveGoldClashTime_StartHourMust0To23",
+        "Name": "시작 시(Hour)는 0과 23사이"
+    },
+    "SaveGoldClashTime_StartMinuteMust0To59": {
+        "Error": "SaveGoldClashTime_StartMinuteMust0To59",
+        "Name": "시작 분(Minute)은 0과 59사이"
+    },
+    "SaveGoldClashTime_EndHourMust0To23": {
+        "Error": "SaveGoldClashTime_EndHourMust0To23",
+        "Name": "종료 시(Hour)는 0과 23사이"
+    },
+    "SaveGoldClashTime_EndMinuteMust0To59": {
+        "Error": "SaveGoldClashTime_EndMinuteMust0To59",
+        "Name": "종료 분(Minute)은 0과 59사이"
+    },
+    "SaveGoldClashTime_FailedToSaveData": {
+        "Error": "SaveGoldClashTime_FailedToSaveData",
+        "Name": "골드클래시 오픈 시간 저장 실패"
+    },
+    "SilverMedalStores_UIDRequired": {
+        "Error": "SilverMedalStores_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SilverMedalStores_NotFoundData": {
+        "Error": "SilverMedalStores_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "EventStores_UIDRequired": {
+        "Error": "EventStores_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "EventStores_NotFoundData": {
+        "Error": "EventStores_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Expressions_UIDRequired": {
+        "Error": "Expressions_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Expressions_NotFoundData": {
+        "Error": "Expressions_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "ExpressionPresets_UIDRequired": {
+        "Error": "ExpressionPresets_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "ExpressionPresets_NotFoundData": {
+        "Error": "ExpressionPresets_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "WonderCubes_UIDRequired": {
+        "Error": "WonderCubes_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "WonderCubes_NotFoundData": {
+        "Error": "WonderCubes_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveWonderCubes_EmptyData": {
+        "Error": "SaveWonderCubes_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveWonderCubes_UIDRequired": {
+        "Error": "SaveWonderCubes_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveWonderCubes_SlotIDRequired": {
+        "Error": "SaveWonderCubes_SlotIDRequired",
+        "Name": "원더큐브 슬롯 아이디 필요"
+    },
+    "SaveWonderCubes_WonderCubeIDRequired": {
+        "Error": "SaveWonderCubes_WonderCubeIDRequired",
+        "Name": "원더큐브 아이디 필요"
+    },
+    "SaveWonderCubes_NotFoundUserAccount": {
+        "Error": "SaveWonderCubes_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveWonderCubes_NotFoundData": {
+        "Error": "SaveWonderCubes_NotFoundData",
+        "Name": "수정할 테이터 없음"
+    },
+    "SaveWonderCubes_FailedToUpdate": {
+        "Error": "SaveWonderCubes_FailedToUpdate",
+        "Name": "테이터 수정 실패"
+    },
+    "WonderStores_UIDRequired": {
+        "Error": "WonderStores_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "WonderStores_NotFoundData": {
+        "Error": "WonderStores_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveWonderStores_EmptyData": {
+        "Error": "SaveWonderStores_EmptyData",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveWonderStores_UIDRequired": {
+        "Error": "SaveWonderStores_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "SaveWonderStores_StoreIDRequired": {
+        "Error": "SaveWonderStores_StoreIDRequired",
+        "Name": "상점 아이디 필요"
+    },
+    "SaveWonderStores_NotFoundUserAccount": {
+        "Error": "SaveWonderStores_NotFoundUserAccount",
+        "Name": "대상 사용자 정보없음"
+    },
+    "SaveWonderStores_NotFoundData": {
+        "Error": "SaveWonderStores_NotFoundData",
+        "Name": "수정할 테이터 없음"
+    },
+    "SaveWonderStores_FailedToUpdate": {
+        "Error": "SaveWonderStores_FailedToUpdate",
+        "Name": "테이터 수정 실패"
+    },
+    "LobbyServerTimes_FailedToUpdateLobbyServerTime": {
+        "Error": "LobbyServerTimes_FailedToUpdateLobbyServerTime",
+        "Name": "로비서버 시간 갱신 실패"
+    },
+    "LobbyServerTimes_LobbyServerTimeEmpty": {
+        "Error": "LobbyServerTimes_LobbyServerTimeEmpty",
+        "Name": "로비서버 시간정보 없음"
+    },
+    "SaveLobbyServerTimes_LobbyServerTimeRequired": {
+        "Error": "SaveLobbyServerTimes_LobbyServerTimeRequired",
+        "Name": "변경할 로비서버 시간정보 필요"
+    },
+    "SaveLobbyServerTimes_FailedToSaveLobbyServerTime": {
+        "Error": "SaveLobbyServerTimes_FailedToSaveLobbyServerTime",
+        "Name": "로비서버 시간 저장실패"
+    },
+    "SaveLobbyServerTimes_LobbyServerTimeEmpty": {
+        "Error": "SaveLobbyServerTimes_LobbyServerTimeEmpty",
+        "Name": "로비서버 시간정보 없음"
+    },
+    "BlockContents_NotFoundBlockContents": {
+        "Error": "BlockContents_NotFoundBlockContents",
+        "Name": "검색된 블럭 컨텐츠 정보 없음"
+    },
+    "SaveBlockContents_BlockContentsEmpty": {
+        "Error": "SaveBlockContents_BlockContentsEmpty",
+        "Name": "블럭할 컨텐츠 없음"
+    },
+    "SaveBlockContents_PacketIdEmpty": {
+        "Error": "SaveBlockContents_PacketIdEmpty",
+        "Name": "블럭할 컨텐츠의 패킷 아이디 없음"
+    },
+    "SaveBlockContents_NotSuitablePacketId": {
+        "Error": "SaveBlockContents_NotSuitablePacketId",
+        "Name": "패킷 아이디에 해당하는 블럭 컨텐츠 없음"
+    },
+    "SaveBlockContents_AlreadyBlocked": {
+        "Error": "SaveBlockContents_AlreadyBlocked",
+        "Name": "이미 블럭된 컨텐츠"
+    },
+    "SaveBlockContents_FailedToInsert": {
+        "Error": "SaveBlockContents_FailedToInsert",
+        "Name": "블럭 컨텐츠 저장 실패"
+    },
+    "DeleteBlockContents_BlockContentsEmpty": {
+        "Error": "DeleteBlockContents_BlockContentsEmpty",
+        "Name": "삭제할 블럭 컨텐츠 없음"
+    },
+    "DeleteBlockContents_PacketIdEmpty": {
+        "Error": "DeleteBlockContents_PacketIdEmpty",
+        "Name": "패킷 아이디 없음"
+    },
+    "DeleteBlockContents_NotFoundBlockContents": {
+        "Error": "DeleteBlockContents_NotFoundBlockContents",
+        "Name": "삭제할 블럭 컨텐츠 없음"
+    },
+    "DeleteBlockContents_FailedToDelete": {
+        "Error": "DeleteBlockContents_FailedToDelete",
+        "Name": "블럭 컨텐츠 삭제 실패"
+    },
+    "SelectEventMail_ParametersEmpty": {
+        "Error": "SelectEventMail_ParametersEmpty",
+        "Name": "검색할 데이터 없음"
+    },
+    "SelectEventMail_IDRequired": {
+        "Error": "SelectEventMail_IDRequired",
+        "Name": "이벤트 메일 아이디 필요"
+    },
+    "SelectEventMail_NotFoundData": {
+        "Error": "SelectEventMail_NotFoundData",
+        "Name": "수정할 이벤트 메일 없음"
+    },
+    "InsertEventMail_ParametersEmpty": {
+        "Error": "InsertEventMail_ParametersEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "InsertEventMail_TitleRequired": {
+        "Error": "InsertEventMail_TitleRequired",
+        "Name": "이벤트 메일 제목 필요"
+    },
+    "InsertEventMail_MessageRequired": {
+        "Error": "InsertEventMail_MessageRequired",
+        "Name": "이벤트 메일 내용 필요"
+    },
+    "InsertEventMail_RewardTypeRequired": {
+        "Error": "InsertEventMail_RewardTypeRequired",
+        "Name": "보상 아이템 타입 필요"
+    },
+    "InsertEventMail_RewardIDRequired": {
+        "Error": "InsertEventMail_RewardIDRequired",
+        "Name": "보상 아이템 아이디 필요"
+    },
+    "InsertEventMail_RewardCountRequired": {
+        "Error": "InsertEventMail_RewardCountRequired",
+        "Name": "보상 아이템 수량은 0 이상"
+    },
+    "InsertEventMail_EndTimeLaterThanStartTime": {
+        "Error": "InsertEventMail_EndTimeLaterThanStartTime",
+        "Name": "이벤트 메일 종료시간은 시작시간보다 이후여야 함"
+    },
+    "InsertEventMail_NotFoundData": {
+        "Error": "InsertEventMail_NotFoundData",
+        "Name": "수정할 이벤트 메일 없음"
+    },
+    "InsertEventMail_FailedToInsert": {
+        "Error": "InsertEventMail_FailedToInsert",
+        "Name": "이벤트 우편 입력실패"
+    },
+    "InsertEventMail_NotSuitableUserId": {
+        "Error": "InsertEventMail_NotSuitableUserId",
+        "Name": "부적합한 관리자 아이디"
+    },
+    "UpdateEventMail_ParametersEmpty": {
+        "Error": "UpdateEventMail_ParametersEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "UpdateEventMail_MailIDRequired": {
+        "Error": "UpdateEventMail_MailIDRequired",
+        "Name": "이벤트 메일 아이디 필요"
+    },
+    "UpdateEventMail_TitleRequired": {
+        "Error": "UpdateEventMail_TitleRequired",
+        "Name": "이벤트 메일 제목 필요"
+    },
+    "UpdateEventMail_MessageRequired": {
+        "Error": "UpdateEventMail_MessageRequired",
+        "Name": "이벤트 메일 내용 필요"
+    },
+    "UpdateEventMail_RewardTypeRequired": {
+        "Error": "UpdateEventMail_RewardTypeRequired",
+        "Name": "보상 아이템 타입 필요"
+    },
+    "UpdateEventMail_RewardIDRequired": {
+        "Error": "UpdateEventMail_RewardIDRequired",
+        "Name": "보상 아이템 아이디 필요"
+    },
+    "UpdateEventMail_RewardCountRequired": {
+        "Error": "UpdateEventMail_RewardCountRequired",
+        "Name": "보상 아이템 수량은 0 이상"
+    },
+    "UpdateEventMail_EndTimeLaterThanStartTime": {
+        "Error": "UpdateEventMail_EndTimeLaterThanStartTime",
+        "Name": "이벤트 메일 종료시간은 시작시간보다 이후여야 함"
+    },
+    "UpdateEventMail_NotFoundData": {
+        "Error": "UpdateEventMail_NotFoundData",
+        "Name": "수정할 이벤트 메일 없음"
+    },
+    "UpdateEventMail_FailedToUpdate": {
+        "Error": "UpdateEventMail_FailedToUpdate",
+        "Name": "이벤트 우편 수정실패"
+    },
+    "UpdateEventMail_NotSuitableUserId": {
+        "Error": "UpdateEventMail_NotSuitableUserId",
+        "Name": "부적합한 관리자 아이디"
+    },
+    "RemoveEventMail_ParametersEmpty": {
+        "Error": "RemoveEventMail_ParametersEmpty",
+        "Name": "삭제할 데이터 없음"
+    },
+    "RemoveEventMail_MailIDRequired": {
+        "Error": "RemoveEventMail_MailIDRequired",
+        "Name": "이벤트 메일 ID필요"
+    },
+    "RemoveEventMail_NotFoundData": {
+        "Error": "RemoveEventMail_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "RemoveEventMail_FailedToRemove": {
+        "Error": "RemoveEventMail_FailedToRemove",
+        "Name": "데이터 삭제 실패"
+    },
+    "RemoveEventMail_NotSuitableUserId": {
+        "Error": "RemoveEventMail_NotSuitableUserId",
+        "Name": "부적합한 관리자 아이디"
+    },
+    "GameRanking_UnknownGameType": {
+        "Error": "GameRanking_UnknownGameType",
+        "Name": "알수없는 게임"
+    },
+    "GameRanking_DateTimeRequired": {
+        "Error": "GameRanking_DateTimeRequired",
+        "Name": "날짜 필요"
+    },
+    "DeleteMails_ParameterEmpty": {
+        "Error": "DeleteMails_ParameterEmpty",
+        "Name": "삭제할 데이터 정보 없음"
+    },
+    "DeleteMails_IDRequired": {
+        "Error": "DeleteMails_IDRequired",
+        "Name": "메일 ID필요"
+    },
+    "DeleteMails_NotFoundData": {
+        "Error": "DeleteMails_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteMails_AlreadyCheckedMail": {
+        "Error": "DeleteMails_AlreadyCheckedMail",
+        "Name": "이미 사용자가 확인한 우편"
+    },
+    "DeleteMails_ActiveUser": {
+        "Error": "DeleteMails_ActiveUser",
+        "Name": "사용자가 로그인 중"
+    },
+    "DeleteMails_FailedToDelete": {
+        "Error": "DeleteMails_FailedToDelete",
+        "Name": "데이터 삭제 실패"
+    },
+    "SaveWhiteList_ParameterEmpty": {
+        "Error": "SaveWhiteList_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveWhiteList_DeviceIDORMemberNoRequired": {
+        "Error": "SaveWhiteList_DeviceIDORMemberNoRequired",
+        "Name": "디바이스 아이디 또는 StoveMemberNo 필요"
+    },
+    "SaveWhiteList_CommentRequired": {
+        "Error": "SaveWhiteList_CommentRequired",
+        "Name": "코멘트 필요"
+    },
+    "SaveWhiteList_DuplicateDeviceIDAndMemberNo": {
+        "Error": "SaveWhiteList_DuplicateDeviceIDAndMemberNo",
+        "Name": "데이터 중복"
+    },
+    "SaveWhiteList_AlreadyExistsData": {
+        "Error": "SaveWhiteList_AlreadyExistsData",
+        "Name": "데이터 중복"
+    },
+    "SaveWhiteList_FailedToSaveSomeData": {
+        "Error": "SaveWhiteList_FailedToSaveSomeData",
+        "Name": "일부 데이터 저장 실패"
+    },
+    "SaveWhiteList_FailedToSaveData": {
+        "Error": "SaveWhiteList_FailedToSaveData",
+        "Name": "데이터 저장 실패"
+    },
+    "DeleteWhiteList_ParameterEmpty": {
+        "Error": "DeleteWhiteList_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteWhiteList_IDRequired": {
+        "Error": "DeleteWhiteList_IDRequired",
+        "Name": "삭제할 데이터의 ID 필요"
+    },
+    "DeleteWhiteList_NotFoundData": {
+        "Error": "DeleteWhiteList_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteWhiteList_FailedToDeleteSomeData": {
+        "Error": "DeleteWhiteList_FailedToDeleteSomeData",
+        "Name": "일부 데이터 삭제 실패"
+    },
+    "DeleteWhiteList_FailedToDeleteData": {
+        "Error": "DeleteWhiteList_FailedToDeleteData",
+        "Name": "데이터 삭제 실패"
+    },
+    "SaveBlockIP_ParameterEmpty": {
+        "Error": "SaveBlockIP_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveBlockIP_IPAddressRequired": {
+        "Error": "SaveBlockIP_IPAddressRequired",
+        "Name": "IP주소 필요"
+    },
+    "SaveBlockIP_ReasonRequired": {
+        "Error": "SaveBlockIP_ReasonRequired",
+        "Name": "블럭사유 필요"
+    },
+    "SaveBlockIP_AlreadyExistsData": {
+        "Error": "SaveBlockIP_AlreadyExistsData",
+        "Name": "데이터 중복"
+    },
+    "SaveBlockIP_FailedToSaveSomeData": {
+        "Error": "SaveBlockIP_FailedToSaveSomeData",
+        "Name": "일부 데이터 저장 실패"
+    },
+    "SaveBlockIP_FailedToSaveData": {
+        "Error": "SaveBlockIP_FailedToSaveData",
+        "Name": "데이터 저장 실패"
+    },
+    "DeleteBlockIP_ParameterEmpty": {
+        "Error": "DeleteBlockIP_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteBlockIP_IDRequired": {
+        "Error": "DeleteBlockIP_IDRequired",
+        "Name": "삭제할 데이터의 ID 필요"
+    },
+    "DeleteBlockIP_NotFoundData": {
+        "Error": "DeleteBlockIP_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteBlockIP_FailedToDeleteSomeData": {
+        "Error": "DeleteBlockIP_FailedToDeleteSomeData",
+        "Name": "일부 데이터 삭제 실패"
+    },
+    "DeleteBlockIP_FailedToDeleteData": {
+        "Error": "DeleteBlockIP_FailedToDeleteData",
+        "Name": "데이터 삭제 실패"
+    },
+    "SaveSlang_ParameterEmpty": {
+        "Error": "SaveSlang_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveSlang_WordRequired": {
+        "Error": "SaveSlang_WordRequired",
+        "Name": "IP주소 필요"
+    },
+    "SaveSlang_AlreadyExistsData": {
+        "Error": "SaveSlang_AlreadyExistsData",
+        "Name": "데이터 중복"
+    },
+    "SaveSlang_FailedToSaveSomeData": {
+        "Error": "SaveSlang_FailedToSaveSomeData",
+        "Name": "일부 데이터 저장 실패"
+    },
+    "SaveSlang_FailedToSaveData": {
+        "Error": "SaveSlang_FailedToSaveData",
+        "Name": "데이터 저장 실패"
+    },
+    "DeleteSlang_ParameterEmpty": {
+        "Error": "DeleteSlang_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteSlang_IDRequired": {
+        "Error": "DeleteSlang_IDRequired",
+        "Name": "삭제할 데이터의 ID 필요"
+    },
+    "DeleteSlang_NotFoundData": {
+        "Error": "DeleteSlang_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteSlang_FailedToDeleteSomeData": {
+        "Error": "DeleteSlang_FailedToDeleteSomeData",
+        "Name": "일부 데이터 삭제 실패"
+    },
+    "DeleteSlang_FailedToDeleteData": {
+        "Error": "DeleteSlang_FailedToDeleteData",
+        "Name": "데이터 삭제 실패"
+    },
+    "SaveFirewall_ParameterEmpty": {
+        "Error": "SaveFirewall_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "SaveFirewall_IPAddressRequired": {
+        "Error": "SaveFirewall_IPAddressRequired",
+        "Name": "IP주소 필요"
+    },
+    "SaveFirewall_DescriptionRequired": {
+        "Error": "SaveFirewall_DescriptionRequired",
+        "Name": "IP주소 필요"
+    },
+    "SaveFirewall_AlreadyExistsData": {
+        "Error": "SaveFirewall_AlreadyExistsData",
+        "Name": "데이터 중복"
+    },
+    "SaveFirewall_FailedToSaveSomeData": {
+        "Error": "SaveFirewall_FailedToSaveSomeData",
+        "Name": "일부 데이터 저장 실패"
+    },
+    "SaveFirewall_FailedToSaveData": {
+        "Error": "SaveFirewall_FailedToSaveData",
+        "Name": "데이터 저장 실패"
+    },
+    "DeleteFirewall_ParameterEmpty": {
+        "Error": "DeleteFirewall_ParameterEmpty",
+        "Name": "저장할 데이터 없음"
+    },
+    "DeleteFirewall_IDRequired": {
+        "Error": "DeleteFirewall_IDRequired",
+        "Name": "삭제할 데이터의 ID 필요"
+    },
+    "DeleteFirewall_IDMustGuid": {
+        "Error": "DeleteFirewall_IDMustGuid",
+        "Name": "삭제할 데이터의 ID는 Guid 형식"
+    },
+    "DeleteFirewall_NotFoundData": {
+        "Error": "DeleteFirewall_NotFoundData",
+        "Name": "삭제할 데이터 없음"
+    },
+    "DeleteFirewall_FailedToDeleteSomeData": {
+        "Error": "DeleteFirewall_FailedToDeleteSomeData",
+        "Name": "일부 데이터 삭제 실패"
+    },
+    "DeleteFirewall_FailedToDeleteData": {
+        "Error": "DeleteFirewall_FailedToDeleteData",
+        "Name": "데이터 삭제 실패"
+    },
+    "ChatLogs_StartTimeRequired": {
+        "Error": "ChatLogs_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "ChatLogs_StartTimeNotSuitableDateTime": {
+        "Error": "ChatLogs_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "ChatLogs_EndTimeRequired": {
+        "Error": "ChatLogs_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "ChatLogs_EndTimeNotSuitableDateTime": {
+        "Error": "ChatLogs_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "ChatLogs_SearchPeriodLimit": {
+        "Error": "ChatLogs_SearchPeriodLimit",
+        "Name": "검색기간 넘음"
+    },
+    "ManagerServerLogs_StartTimeRequired": {
+        "Error": "ManagerServerLogs_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "ManagerServerLogs_StartTimeNotSuitableDateTime": {
+        "Error": "ManagerServerLogs_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "ManagerServerLogs_EndTimeRequired": {
+        "Error": "ManagerServerLogs_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "ManagerServerLogs_EndTimeNotSuitableDateTime": {
+        "Error": "ManagerServerLogs_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "ManagerServerLogs_SearchPeriodLimit": {
+        "Error": "ManagerServerLogs_SearchPeriodLimit",
+        "Name": "검색기간 넘음"
+    },
+    "GMUserService_ConnectionIdRequired": {
+        "Error": "GMUserService_ConnectionIdRequired",
+        "Name": "연결 아이디 필요"
+    },
+    "GMUserService_ConnectionIdAndJobIdRequired": {
+        "Error": "GMUserService_ConnectionIdAndJobIdRequired",
+        "Name": "연결 아이디, 작업 아이디 필요"
+    },
+    "GMUserService_NotFoundUser": {
+        "Error": "GMUserService_NotFoundUser",
+        "Name": "관리자 정보 없음"
+    },
+    "GMUserService_NotFoundUserJob": {
+        "Error": "GMUserService_NotFoundUserJob",
+        "Name": "관리자 작업정보 없음"
+    },
+    "GMUserService_OnProcessingJob": {
+        "Error": "GMUserService_OnProcessingJob",
+        "Name": "처리중인 작업"
+    },
+    "GMUserService_CompletedJob": {
+        "Error": "GMUserService_CompletedJob",
+        "Name": "완료된 작업"
+    },
+    "GMUserService_FailedToUpdateConnectedUser": {
+        "Error": "GMUserService_FailedToUpdateConnectedUser",
+        "Name": "연결된 관리자 정보 수정 실패"
+    },
+    "GMUserService_FailedToRemoveConnectedUser": {
+        "Error": "GMUserService_FailedToRemoveConnectedUser",
+        "Name": "연결된 관리자 정보 제거 실패"
+    },
+    "GMUserService_FailedToGetConnectedUsers": {
+        "Error": "GMUserService_FailedToGetConnectedUsers",
+        "Name": "연결된 관리자 확인 실패"
+    },
+    "GMUserService_FailedToGetUserJobs": {
+        "Error": "GMUserService_FailedToGetUserJobs",
+        "Name": "관리자 작업 정보 확인 실패"
+    },
+    "GMUserService_UserJobTypeRequired": {
+        "Error": "GMUserService_UserJobTypeRequired",
+        "Name": "관리자 작업 형식 필요"
+    },
+    "GMUserService_UserJobCountRequired": {
+        "Error": "GMUserService_UserJobCountRequired",
+        "Name": "관리자 작업 형식 필요"
+    },
+    "GMUserService_FailedToAddUserJobCount": {
+        "Error": "GMUserService_FailedToAddUserJobCount",
+        "Name": "관리자 작업횟수 기록 실패"
+    },
+    "GMUserService_FailedToClearUserJob": {
+        "Error": "GMUserService_FailedToClearUserJob",
+        "Name": "관리자 작업 완료처리 실패"
+    },
+    "MailWithUsers_UIDRequired": {
+        "Error": "MailWithUsers_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "MailWithUsers_StartTimeRequired": {
+        "Error": "MailWithUsers_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "MailWithUsers_StartTimeNotSuitableDateTime": {
+        "Error": "MailWithUsers_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "MailWithUsers_EndTimeRequired": {
+        "Error": "MailWithUsers_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "MailWithUsers_EndTimeNotSuitableDateTime": {
+        "Error": "MailWithUsers_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "MailWithUsers_SearchPeriodLimit": {
+        "Error": "MailWithUsers_SearchPeriodLimit",
+        "Name": "검색기간 넘음"
+    },
+    "MailWithUsers_NotFoundData": {
+        "Error": "MailWithUsers_NotFoundData",
+        "Name": "우편정보 없음"
+    },
+    "DeleteMailWithUsers_MailIDRequired": {
+        "Error": "DeleteMailWithUsers_MailIDRequired",
+        "Name": "우편 고유번호 필요"
+    },
+    "DeleteMailWithUsers_AlreadyReceivedMail": {
+        "Error": "DeleteMailWithUsers_AlreadyReceivedMail",
+        "Name": "이미 수령한 메일"
+    },
+    "DeleteMailWithUsers_NotFoundData": {
+        "Error": "DeleteMailWithUsers_NotFoundData",
+        "Name": "우편정보 없음"
+    },
+    "DeleteMailWithUsers_FailedToDeleteSomeData": {
+        "Error": "DeleteMailWithUsers_FailedToDeleteSomeData",
+        "Name": "일부 데이터 삭제 실패"
+    },
+    "UserBillings_UIDRequired": {
+        "Error": "UserBillings_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "UserBillings_NotFoundData": {
+        "Error": "UserBillings_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "Billings_UIDRequired": {
+        "Error": "Billings_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Billings_StartTimeRequired": {
+        "Error": "Billings_StartTimeRequired",
+        "Name": "시작일시 필요"
+    },
+    "Billings_StartTimeNotSuitableDateTime": {
+        "Error": "Billings_StartTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "Billings_EndTimeRequired": {
+        "Error": "Billings_EndTimeRequired",
+        "Name": "종료일시 필요"
+    },
+    "Billings_EndTimeNotSuitableDateTime": {
+        "Error": "Billings_EndTimeNotSuitableDateTime",
+        "Name": "시작일시 날짜형식 안맞음"
+    },
+    "Billings_SearchPeriodLimit": {
+        "Error": "Billings_SearchPeriodLimit",
+        "Name": "검색기간 넘음"
+    },
+    "Billings_NotFoundData": {
+        "Error": "Billings_NotFoundData",
+        "Name": "우편정보 없음"
+    },
+    "Incubations_UIDRequired": {
+        "Error": "Incubations_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "Incubations_NotFoundData": {
+        "Error": "Incubations_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "InstantGuides_UIDRequired": {
+        "Error": "InstantGuides_UIDRequired",
+        "Name": "계정 고유번호 필요"
+    },
+    "InstantGuides_NotFoundData": {
+        "Error": "InstantGuides_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "ExpireLogSetting_NotFoundData": {
+        "Error": "ExpireLogSetting_NotFoundData",
+        "Name": "데이터 없음"
+    },
+    "SaveExpireLogSetting_LessThanMinExpireDay": {
+        "Error": "SaveExpireLogSetting_LessThanMinExpireDay",
+        "Name": "최소 만료 기간은 30일"
+    },
+    "SaveExpireLogSetting_MoreThanMaxExpireDay": {
+        "Error": "SaveExpireLogSetting_MoreThanMaxExpireDay",
+        "Name": "최소 만료 기간은 1095일"
+    },
+    "SaveExpireLogSetting_FailedToSaveData": {
+        "Error": "SaveExpireLogSetting_FailedToSaveData",
+        "Name": "저장실패"
+    },
+    "SendChattingMessage_ChattingMessageRequired": {
+        "Error": "SendChattingMessage_ChattingMessageRequired",
+        "Name": "채팅 메시지 필요"
+    },
+    "SendChattingMessage_IdRequired": {
+        "Error": "SendChattingMessage_IdRequired",
+        "Name": "채팅 메시지 아이디 필요"
+    },
+    "SendChattingMessage_MessageRequired": {
+        "Error": "SendChattingMessage_MessageRequired",
+        "Name": "채팅 내용 필요"
+    },
+    "SendChattingMessage_SendSigninIdRequired": {
+        "Error": "SendChattingMessage_SendSigninIdRequired",
+        "Name": "발신자 인증 아이디 필요"
+    },
+    "SendChattingMessage_SendUserNameRequired": {
+        "Error": "SendChattingMessage_SendUserNameRequired",
+        "Name": "발신자 이름 필요"
+    },
+    "SendChattingMessage_NotFoundUserInfo": {
+        "Error": "SendChattingMessage_NotFoundUserInfo",
+        "Name": "대상 사용자 없음"
+    },
+    "SendChattingMessage_NotFoundUserConnection": {
+        "Error": "SendChattingMessage_NotFoundUserConnection",
+        "Name": "대상 사용자 연결정보 없음"
+    },
+}

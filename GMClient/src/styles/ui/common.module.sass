@@ -1,0 +1,65 @@
+.toolBar
+    border-left: 3px solid #1976d2
+
+    *
+        line-height: 1.25rem
+
+.noneCell
+    padding: 20px 10px !important
+    text-align: center
+
+.button
+
+    &.buttonSmall
+        line-height: 1.45rem
+        min-width: 60px
+
+    &.buttonTiny
+        line-height: 1.05rem
+        padding: 5px 10px
+        min-width: 55px
+
+.row
+    background: none
+
+    &.changed
+
+        :global(.MuiFormLabel-root)
+            color: #ff0000
+        :global(.MuiFormLabel-root.Mui-focused)
+            color: #1976d2
+        
+        :global(.MuiInputBase-root) fieldset
+                border: 2px solid #ff0000
+        :global(.MuiInputBase-root.Mui-focused) fieldset
+                border: 2px solid #1976d2
+                
+        .button
+            border: 1px solid #ff0000
+
+        .select
+            & > div
+                border: 1px solid #ff0000
+
+        .input
+
+            input
+                border: 1px solid #ff0000
+                border-radius: 4px
+
+
+    
+
+.deletedRow
+    th, td
+        text-decoration: line-through
+        color: #c9c9c9
+
+        &:last-child
+            text-decoration: none
+
+.ellipsisTable
+    th, td
+        overflow: hidden
+        white-space: nowrap
+        text-overflow: ellipsis

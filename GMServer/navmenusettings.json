@@ -1,0 +1,210 @@
+{
+  "NavMenuSettings": {
+    "navMenus": [
+      {
+        "name": "사용자 관리",
+        "path": "/Users",
+        "parameters": {},
+        "policyName": "사용자 관리",
+        "roles": [ "최고 권한", "사용자 관리", "사용자 검색", "우편 즉시발송", "우편 관리", "블럭 설정", "패널티 사용자 관리" ],
+        "children": [
+          {
+            "name": "사용자 검색",
+            "path": "/Users/Search",
+            "parameters": {},
+            "policyName": "사용자 검색",
+            "roles": [ "최고 권한", "사용자 관리", "사용자 검색" ],
+            "children": []
+          },
+          {
+            "name": "사용자 편집",
+            "path": "/Users/Edit",
+            "parameters": {},
+            "policyName": "사용자 편집",
+            "roles": [ "최고 권한", "사용자 관리", "사용자 편집" ],
+            "children": []
+          },
+          {
+            "name": "우편 즉시발송",
+            "path": "/Users/ImmdSendMail",
+            "parameters": {},
+            "policyName": "우편 즉시발송",
+            "roles": [ "최고 권한", "사용자 관리", "우편 즉시발송" ],
+            "children": []
+          },
+          {
+            "name": "우편 관리",
+            "path": "/Users/Mails",
+            "parameters": {},
+            "policyName": "우편 관리",
+            "roles": [ "최고 권한", "사용자 관리", "우편 관리" ],
+            "children": []
+          },
+          {
+            "name": "블럭 설정",
+            "path": "/Users/Block",
+            "parameters": {},
+            "policyName": "블럭 설정",
+            "roles": [ "최고 권한", "사용자 관리", "블럭 설정" ],
+            "children": []
+          },
+          {
+            "name": "패널티 사용자 관리",
+            "path": "/Users/Penalties",
+            "parameters": {},
+            "policyName": "패널티 사용자 관리",
+            "roles": [ "최고 권한", "사용자 관리", "패널티 사용자 관리" ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "설정 관리",
+        "path": "/Settings",
+        "parameters": {},
+        "policyName": "설정 관리",
+        "roles": [ "최고 권한", "설정 관리", "버전 관리", "화이트 리스트", "블럭 아이피 관리", "비속어 관리", "기획 테이블 정보" ],
+        "children": [
+          {
+            "name": "버전 관리",
+            "path": "/Settings/Versions",
+            "parameters": {},
+            "policyName": "버전 관리",
+            "roles": [ "최고 권한", "설정 관리", "버전 관리" ],
+            "children": []
+          },
+          {
+            "name": "화이트 리스트",
+            "path": "/Settings/WhiteList",
+            "parameters": {},
+            "policyName": "화이트 리스트",
+            "roles": [ "최고 권한", "설정 관리", "화이트 리스트" ],
+            "children": []
+          },
+          {
+            "name": "블럭 아이피 관리",
+            "path": "/Settings/BlockIP",
+            "parameters": {},
+            "policyName": "블럭 아이피 관리",
+            "roles": [ "최고 권한", "설정 관리", "블럭 아이피 관리" ],
+            "children": []
+          },
+          {
+            "name": "비속어 관리",
+            "path": "/Settings/Slang",
+            "parameters": {},
+            "policyName": "비속어 관리",
+            "roles": [ "최고 권한", "설정 관리", "비속어 관리" ],
+            "children": []
+          },
+          {
+            "name": "기획 테이블 정보",
+            "path": "/Settings/TableDatas",
+            "parameters": {},
+            "policyName": "기획 테이블 정보",
+            "roles": [ "최고 권한", "설정 관리", "기획 테이블 정보" ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "서비스 관리",
+        "path": "/Services",
+        "parameters": {},
+        "policyName": "서비스 관리",
+        "roles": [ "최고 권한", "서비스 관리", "이벤트 우편", "서비스 상태", "채팅공지", "팝업공지", "블럭 컨텐츠", "결제 검색" ],
+        "children": [
+          {
+            "name": "서비스 상태",
+            "path": "/Services/States",
+            "parameters": {},
+            "policyName": "서비스 상태",
+            "roles": [ "최고 권한", "서비스 관리", "서비스 상태" ],
+            "children": []
+          },
+          {
+            "name": "이벤트 우편",
+            "path": "/Services/EventMail",
+            "parameters": {},
+            "policyName": "이벤트 우편",
+            "roles": [ "최고 권한", "서비스 관리", "이벤트 우편" ],
+            "children": []
+          },
+          {
+            "name": "채팅공지",
+            "path": "/Services/ChattingNotice",
+            "parameters": {},
+            "policyName": "채팅공지",
+            "roles": [ "최고 권한", "서비스 관리", "채팅공지" ],
+            "children": []
+          },
+          {
+            "name": "팝업공지",
+            "path": "/Services/NoticeBanner",
+            "parameters": {},
+            "policyName": "팝업공지",
+            "roles": [ "최고 권한", "서비스 관리", "팝업공지" ],
+            "children": []
+          },
+          {
+            "name": "블럭 컨텐츠",
+            "path": "/Services/BlockContents",
+            "parameters": {},
+            "policyName": "블럭 컨텐츠",
+            "roles": [ "최고 권한", "서비스 관리", "블럭 컨텐츠" ],
+            "children": []
+          },
+          {
+            "name": "결제 검색",
+            "path": "/Services/Billings",
+            "parameters": {},
+            "policyName": "결제 검색",
+            "roles": [ "최고 권한", "서비스 관리", "결제 검색" ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "로그",
+        "path": "/Logs",
+        "parameters": {},
+        "policyName": "로그",
+        "roles": [ "최고 권한", "로그", "게임 로그", "채팅 로그", "운영툴 로그", "운영툴 서버 로그" ],
+        "children": [
+          {
+            "name": "게임 로그",
+            "path": "/Logs/Game",
+            "parameters": {},
+            "policyName": "게임 로그",
+            "roles": [ "최고 권한", "로그", "게임 로그" ],
+            "children": []
+          },
+          {
+            "name": "채팅 로그",
+            "path": "/Logs/Chat",
+            "parameters": {},
+            "policyName": "채팅 로그",
+            "roles": [ "최고 권한", "로그", "채팅 로그" ],
+            "children": []
+          },
+          {
+            "name": "운영툴 로그",
+            "path": "/Logs/Manager",
+            "parameters": {},
+            "policyName": "운영툴 로그",
+            "roles": [ "최고 권한", "로그", "운영툴 로그" ],
+            "children": []
+          },
+          {
+            "name": "운영툴 서버 로그",
+            "path": "/Logs/ManagerServer",
+            "parameters": {},
+            "policyName": "운영툴 서버 로그",
+            "roles": [ "최고 권한", "로그", "운영툴 서버 로그" ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

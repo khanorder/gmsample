@@ -1,0 +1,140 @@
+﻿@import "@styles/defines/_mediaQuery"
+@import "@styles/defines/_mixin"
+
+.footerWrapper
+    @include transition05
+    padding: 60px 0 30px
+    width: 100%
+    text-align: center
+    
+    .footerCopyrightWrapper
+        @include transition05
+        position: relative
+        margin: 0 auto
+        max-width: 1366px
+        
+        .footerCopyright
+            @include transition05
+            display: flex
+            align-items: center
+            justify-content: center
+            margin: 0 auto
+            padding: 10px 0
+            width: 800px
+            line-height: 14px
+            text-align: center
+                
+            .footerCopyrightLogo
+                @include transition05
+                flex: 0 1 142px
+                display: block
+                width: 142px
+                
+            .footerCopyrightText
+                @include transition05
+                flex: 0 1 auto
+                display: block
+                padding: 0 0 0 10px
+                font-weight: 400
+                font-size: 14px
+                line-height: 18px
+                color: #646464
+
+@include iPadMini
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                width: 740px
+
+                .footerCopyrightLogo
+                    @include transition05
+                    flex: 0 1 30px
+
+@include iPadMini
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                flex-direction: column
+                width: 700px
+
+                .footerCopyrightLogo
+                    @include transition05
+                    flex: 0 1 30px
+
+@include surfaceDuo
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                flex-direction: column
+                width: 500px
+
+                .footerCopyrightLogo
+                    @include transition05
+                    flex: 0 1 30px
+
+@include iPhone12ProMax
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                width: 380px
+
+@include galxS20Ult
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                flex-direction: column
+                width: 380px
+
+                .footerCopyrightLogo
+                    @include transition05
+                    flex: 0 1 30px
+
+@include iPhone12Pro
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                width: 350px
+
+                .footerCopyrightLogo
+                    @include transition05
+                    flex: 0 1 30px
+
+@include galxFlip
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                width: 320px
+
+@include galxFoldCover
+    .footerWrapper
+        
+        .footerCopyrightWrapper
+            
+            .footerCopyright
+                @include transition05
+                width: 300px
+
+                .footerCopyrightLogo
+                    @include transition05
+                    flex: 0 1 30px

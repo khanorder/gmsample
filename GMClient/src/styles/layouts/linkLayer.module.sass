@@ -1,0 +1,657 @@
+﻿@import "@styles/defines/_mediaQuery"
+@import "@styles/defines/_mixin"
+@import "@styles/defines/modal/_layout"
+
+.linkLayerWrapper
+    position: fixed
+    top: 38px
+    left: 38px
+    width: 35px
+    height: 32px
+    z-index: 1
+    touch-action: none
+
+    .leftLinkWrapper
+
+        .navbarLinkBtn
+            @include transition04
+            position: absolute
+            top: 0
+            left: 0
+            margin: 0
+            border: 0
+            padding: 0
+            width: 35px
+            height: 32px
+            font-size: 0
+            line-height: 0
+            background: url(/images/btn_mOpen.gif) 50% 50% / contain no-repeat
+            z-index: 2
+
+            &:hover
+                cursor: pointer
+
+        &.whiteLink
+            .navbarLinkBtn
+                @include transition04
+                background: url(/images/btn_mOpen_w.gif) 50% 50% / contain no-repeat 
+
+    .rightLinkWrapper
+        .rightLinkList
+            position: fixed
+            top: 38px
+            right: 38px
+
+            .rightLink
+
+                .rightLinkBtn
+                    display: block
+                    margin: 25px 0 0
+                    border: 0
+                    background: none
+                    font-size: 0
+                    line-height: 0
+
+                    &:hover
+                        cursor: pointer
+
+                    &.rightLinkBtnMute
+                        @include transition04
+                        width: 41px
+                        height: 31px
+                        background: url(/images/btn_off_b.png) 50% 50% / contain no-repeat
+
+                        &.volumeOn
+                            @include transition04
+                            background: url(/images/btn_voice_b.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkBtnKakao
+                        @include transition04
+                        width: 39px
+                        height: 43px
+                        background: url(/images/btn_kakaoCh_b.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkBtnFacebook
+                        @include transition04
+                        width: 34px
+                        height: 50px
+                        background: url(/images/btn_fb_b.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkBtnTwitter
+                        @include transition04
+                        width: 40px
+                        height: 32px
+                        background: url(/images/btn_twitter_b.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkBtnTiktok
+                        @include transition04
+                        width: 42px
+                        height: 48px
+                        background: url(/images/btn_tiltok_b.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkBtnYoutube
+                        @include transition04
+                        width: 38px
+                        height: 32px
+                        background: url(/images/btn_youtubeCh_b.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkBtnForum
+                        @include transition04
+                        width: 39px
+                        height: 37px
+                        background: url(/images/btn_cafeIcon_b.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkBtnSharing
+                        @include transition04
+                        width: 37px
+                        height: 40px
+                        background: url(/images/btn_share_b.png) 50% 50% / contain no-repeat
+
+                &:first-child
+                    .rightLinkBtn
+                        margin-top: 0
+
+                &.rightLinkSharing
+                    position: relative
+                    
+                    .sharingLinkWrapper
+                        position: absolute
+                        top: -5px
+                        right: -5px
+                        display: none
+                        padding: 0
+                        width: 290px
+                        height: 80px
+                        background: url(/images/share_box.png) 50% 50% / contain no-repeat
+                        justify-content: center
+
+                        .sharingLink
+                            margin: 0 0 0 15px
+                            padding: 17px 0 0
+                            width: 46px
+
+                            &:last-child
+                                padding: 10px 0 0
+                                width: 37px
+                                height: 40px
+                                margin: 0 0 0 15px
+
+                            .sharingLinkBtn
+                                display: block
+                                margin: auto 0
+                                border: 0
+                                padding: 0
+                                width: 100%
+                                height: 46px
+                                font-size: 0
+                                line-height: 0
+
+                                &:hover
+                                    cursor: pointer
+
+                                &.sharingLinkBtnFacebook
+                                    background: url(/images/btn_facebook.png) 50% 50% / contain no-repeat
+
+                                &.sharingLinkBtnTwitter
+                                    background: url(/images/btn_twter.png) 50% 50% / contain no-repeat
+
+                                &.sharingLinkBtnInstagram
+                                    background: url(/images/btn_kakao.png) 50% 50% / contain no-repeat
+
+                                &.sharingLinkBtnURL
+                                    background: url(/images/btn_url.png) 50% 50% / contain no-repeat
+
+                                &.sharingLinkBtnClose
+                                    margin: 0 0 0
+                                    width: 37px
+                                    height: 40px
+                                    background: url(/images/close.png) 50% 50% / contain no-repeat
+
+                        &.activeSharingLink
+                            @include transition04
+                            @include fadeInFromRightActive50Flex
+
+                        &.inActiveSharingLink
+                            @include transition04
+                            @include fadeOutToRightInActive50Flex
+
+        &.whiteLink
+            .rightLinkList
+                .rightLink
+                    .rightLinkBtn
+
+                        &.rightLinkBtnMute
+                            @include transition04
+                            background: url(/images/btn_off.png) 50% 50% / contain no-repeat
+
+                            &.volumeOn
+                                @include transition04
+                                background: url(/images/btn_voice.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnKakao
+                            @include transition04
+                            background: url(/images/btn_kakaoCh.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnFacebook
+                            @include transition04
+                            background: url(/images/btn_fb.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnTwitter
+                            @include transition04
+                            background: url(/images/btn_twitter.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnTiktok
+                            @include transition04
+                            background: url(/images/btn_tiltok.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnYoutube
+                            @include transition04
+                            background: url(/images/btn_youtubeCh.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnForum
+                            @include transition04
+                            background: url(/images/btn_cafeIcon.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnSharing
+                            @include transition04
+                            background: url(/images/btn_share.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkSharing
+                        .sharingLinkWrapper
+
+                            .sharingLink
+
+                                .sharingLinkBtn
+                                    display: block
+
+@include iPadPro
+    .linkLayerWrapper
+
+        .leftLinkWrapper
+
+            .navbarLinkBtn
+                background: url(/images/btn_mOpen_w.gif) 50% 50% / contain no-repeat 
+
+@include galxFoldOpen
+    .linkLayerWrapper
+        top: 0
+        left: 0
+        width: 100%
+        height: 40px
+        background-color: black
+
+        .leftLinkWrapper
+
+            .navbarLinkBtn
+                position: absolute
+                top: 12px
+                left: 18px
+                margin: 0
+                border: 0
+                padding: 0
+                width: 20px
+                height: 18px
+                background: url(/images/btn_mOpen_w.gif) 50% 50% / contain no-repeat
+
+                &:hover
+                    cursor: pointer
+
+        .rightLinkWrapper
+            .rightLinkList
+                position: fixed
+                top: 10px
+                right: 12px
+                display: flex
+
+                .rightLink
+
+                    .rightLinkBtn
+                        margin: 0 0 0 12px
+                        border: 0
+                        background: none
+
+                        &:hover
+                            cursor: pointer
+
+                        &.rightLinkBtnMute
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_off.png) 50% 50% / contain no-repeat
+
+                            &.volumeOn
+                                @include transition04
+                                background: url(/images/btn_voice.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnKakao
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_kakaoCh.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnFacebook
+                            @include transition04
+                            width: 23px
+                            height: 23px
+                            background: url(/images/btn_fb.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnTwitter
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_twitter.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnTiktok
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_tiltok.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnYoutube
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_youtubeCh.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnForum
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_cafeIcon.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnSharing
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_share.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkSharing
+                        position: relative
+                        
+                        .sharingLinkWrapper
+                            top: -5px
+                            right: 1px
+                            width: 200px
+                            height: 60px
+
+                            .sharingLink
+                                margin: 0 0 0 10px
+                                padding: 13px 0 0
+                                width: 36px
+
+                                &:first-child
+                                    margin: 0 0 0 15px
+
+                                &:last-child
+                                    padding: 10px 0 0
+                                    width: 37px
+                                    height: 40px
+                                    margin: 0 0 0 10px
+
+                                .sharingLinkBtn
+                                    display: block
+                                    margin: auto 0
+                                    border: 0
+                                    width: 36px
+                                    height: 36px
+                                    font-size: 0
+                                    line-height: 0
+
+                                    &:hover
+                                        cursor: pointer
+
+                                    &.sharingLinkBtnFacebook
+                                        background: url(/images/btn_facebook.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnTwitter
+                                        background: url(/images/btn_twter.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnInstagram
+                                        background: url(/images/btn_kakao.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnURL
+                                        background: url(/images/btn_url.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnClose
+                                        margin: 0 0 0
+                                        width: 27px
+                                        height: 30px
+                                        background: url(/images/close.png) 50% 50% / contain no-repeat
+                                
+            &.whiteLink
+                .rightLinkList
+                    position: fixed
+
+                    .rightLink
+
+                        .rightLinkBtn
+                            margin: 0 0 0 12px
+                            border: 0
+                            background: none
+
+                            &:hover
+                                cursor: pointer
+
+                            &.rightLinkBtnMute
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_off.png) 50% 50% / contain no-repeat
+
+                                &.volumeOn
+                                    @include transition04
+                                    background: url(/images/btn_voice.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnKakao
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_kakaoCh.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnFacebook
+                                @include transition04
+                                width: 23px
+                                height: 23px
+                                background: url(/images/btn_fb.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnTwitter
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_twitter.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnTiktok
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_tiltok.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnYoutube
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_youtubeCh.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnFourm
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_cafeIcon.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnSharing
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_share.png) 50% 50% / contain no-repeat
+
+@include surfaceDuo
+    .linkLayerWrapper
+        top: 0
+        left: 0
+        width: 100%
+        height: 40px
+        background-color: black
+
+        .leftLinkWrapper
+
+            .navbarLinkBtn
+                position: absolute
+                top: 12px
+                left: 18px
+                margin: 0
+                border: 0
+                padding: 0
+                width: 20px
+                height: 18px
+                background: url(/images/btn_mOpen_w.gif) 50% 50% / contain no-repeat
+
+                &:hover
+                    cursor: pointer
+
+        .rightLinkWrapper
+            .rightLinkList
+                position: fixed
+                top: 10px
+                right: 12px
+                display: flex
+
+                .rightLink
+
+                    .rightLinkBtn
+                        margin: 0 0 0 12px
+                        border: 0
+                        background: none
+
+                        &:hover
+                            cursor: pointer
+
+                        &.rightLinkBtnMute
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_off.png) 50% 50% / contain no-repeat
+
+                            &.volumeOn
+                                @include transition04
+                                background: url(/images/btn_voice.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnKakao
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_kakaoCh.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnFacebook
+                            @include transition04
+                            width: 23px
+                            height: 23px
+                            background: url(/images/btn_fb.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnTwitter
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_twitter.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnTiktok
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_tiltok.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnYoutube
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_youtubeCh.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnForum
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_cafeIcon.png) 50% 50% / contain no-repeat
+
+                        &.rightLinkBtnSharing
+                            @include transition04
+                            width: 23px
+                            height: 20px
+                            background: url(/images/btn_share.png) 50% 50% / contain no-repeat
+
+                    &.rightLinkSharing
+                        position: relative
+                        
+                        .sharingLinkWrapper
+                            top: -5px
+                            right: 1px
+                            width: 200px
+                            height: 60px
+
+                            .sharingLink
+                                margin: 0 0 0 10px
+                                padding: 13px 0 0
+                                width: 36px
+
+                                &:first-child
+                                    margin: 0 0 0 15px
+
+                                &:last-child
+                                    padding: 10px 0 0
+                                    width: 37px
+                                    height: 40px
+                                    margin: 0 0 0 10px
+
+                                .sharingLinkBtn
+                                    display: block
+                                    margin: auto 0
+                                    border: 0
+                                    width: 36px
+                                    height: 36px
+                                    font-size: 0
+                                    line-height: 0
+
+                                    &:hover
+                                        cursor: pointer
+
+                                    &.sharingLinkBtnFacebook
+                                        background: url(/images/btn_facebook.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnTwitter
+                                        background: url(/images/btn_twter.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnInstagram
+                                        background: url(/images/btn_kakao.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnURL
+                                        background: url(/images/btn_url.png) 50% 50% / contain no-repeat
+
+                                    &.sharingLinkBtnClose
+                                        margin: 0 0 0
+                                        width: 27px
+                                        height: 30px
+                                        background: url(/images/close.png) 50% 50% / contain no-repeat
+                                
+            &.whiteLink
+                .rightLinkList
+                    position: fixed
+
+                    .rightLink
+
+                        .rightLinkBtn
+                            margin: 0 0 0 12px
+                            border: 0
+                            background: none
+
+                            &:hover
+                                cursor: pointer
+
+                            &.rightLinkBtnMute
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_off.png) 50% 50% / contain no-repeat
+
+                                &.volumeOn
+                                    @include transition04
+                                    background: url(/images/btn_voice.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnKakao
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_kakaoCh.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnFacebook
+                                @include transition04
+                                width: 23px
+                                height: 23px
+                                background: url(/images/btn_fb.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnTwitter
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_twitter.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnTiktok
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_tiltok.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnYoutube
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_youtubeCh.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnFourm
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_cafeIcon.png) 50% 50% / contain no-repeat
+
+                            &.rightLinkBtnSharing
+                                @include transition04
+                                width: 23px
+                                height: 20px
+                                background: url(/images/btn_share.png) 50% 50% / contain no-repeat

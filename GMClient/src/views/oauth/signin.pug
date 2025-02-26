@@ -1,0 +1,128 @@
+doctype html
+html(lang='ko')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title= `로그인 중입니다. - 운영툴 샘플`
+        link(rel='stylesheet', href='/css/reset.css')
+        link(rel='stylesheet', href='/css/oauth.css')
+        script(crossorigin, src='/js/msgpack.min.js')
+        //- script(src='https://cdn.jsdelivr.net/npm/deepmerge@4.3.1/dist/umd.min.js')
+        script(src='https://cdn.jsdelivr.net/gh/ethereumjs/browser-builds/dist/ethereumjs-tx/ethereumjs-tx-1.3.3.min.js')
+    body
+        div(class='page-wrapper')
+            div(class='contents-container')
+                section(class='contents-wrapper')
+                    div(class='loading-wrapper')
+                        div(class='loading-ring')
+                            div
+                        div(class='loading-message') 로그인 중입니다.
+        script.
+            const tokenName = #{`'${tokenName}'`};
+            function setCookie(cname, cvalue) {
+                try {
+                    document.cookie = cname + "=" + cvalue + ";path=/";
+                } catch (error) {
+                    console.error(error);
+                }
+            }
+
+            function getCookie(cname) {
+                try {
+                    let name = cname + "=";
+                    let decodedCookie = decodeURIComponent(document.cookie);
+                    let ca = decodedCookie.split(';');
+                    for(let i = 0; i <ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                    }
+                } catch (error) {
+                    console.error(error);
+                }
+                return "";
+            }
+
+            function encodeMessagePack(data) {
+
+                let messagePack = '';
+
+                if (!data)
+                    return messagePack;
+
+                try {
+                    const encodedData = msgpack.encode(data);
+                    const encodedDataBuffer = ethereumjs.Buffer.Buffer.from(encodedData.buffer, encodedData.byteOffset, encodedData.byteLength);
+                    messagePack = encodedDataBuffer.toString('base64');
+                } catch (error) {
+                    console.error(error);
+                }
+
+                return messagePack;
+            }
+
+            function decodeMessagePack(dataString) {
+                if (!dataString)
+                    return null;
+
+                let decodedData = null;
+
+                try {
+                    const decodedDataBuffer = ethereumjs.Buffer.Buffer.from(dataString, 'base64');
+                    decodedData = msgpack.decode(decodedDataBuffer);
+                } catch (error) {
+                    console.error(error);
+                }
+
+                return decodedData;
+            }
+
+            const apiHostName = getCookie("API_HOST_NAME") ?? 'https://localhost:4101';
+            const routeURI = apiHostName + `/NGMS/OAuth/SignIn`;
+
+            try {
+                const parameters = {
+                    provider: #{`${provider}`}, 
+                    code: #{`'${code}'`}, 
+                    stateCode: #{`'${state}'`}, 
+                    clientId: #{`'${appId}'`}, 
+                    requestURL: document.location.pathname
+                };
+                
+                const encodedDataString = encodeMessagePack(parameters);
+                
+                fetch(routeURI, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'text/plain',
+                    },
+                    body: encodedDataString,
+                    credentials: 'include'
+                })
+                .then(response => {
+                    response.text()
+                        .then(messagePack => {
+                            const responseData = decodeMessagePack(messagePack);
+                            if (responseData && responseData.token) {
+                                setCookie(tokenName ? tokenName : 'NGTK', responseData.token);
+                                location.href = '/GMS';
+                            } else {
+                                switch (responseData.error) {
+                                    case 79:
+                                        alert('이미 로그인 중입니다.');
+                                        break;
+
+                                    default:
+                                        alert(`로그인 실패 (${responseData.error})`);
+                                }
+                                location.href = '/NGAuth';
+                            }
+                        });
+                });
+            } catch (error) {
+                console.error(error);
+            }

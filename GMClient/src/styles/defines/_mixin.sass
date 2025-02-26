@@ -1,0 +1,198 @@
+@import "./_animation"
+
+@mixin optional-at-root($sel)
+    @at-root #{if(not &, $sel, selector-append(&, $sel))}
+        @content
+
+@mixin placeholder
+    @include optional-at-root('::-webkit-input-placeholder')
+        @content
+
+    @include optional-at-root(':-moz-placeholder')
+        @content
+
+    @include optional-at-root('::-moz-placeholder')
+        @content
+
+    @include optional-at-root(':-ms-input-placeholder')
+        @content
+
+@mixin defaultBolder
+    border: 1px solid $defaultBorderColor
+
+@mixin setPositionCenter($wrapperWidth, $wrapperHeight)
+    position: absolute
+    left: calc(50% - (#{$wrapperWidth}/2))
+    top: calc(50% - (#{$wrapperHeight}/2))
+    width: $wrapperWidth
+    height: $wrapperHeight
+
+@mixin fadeInActive
+    display: block
+    opacity: 0
+    -webkit-animation: fadeIn 0.5s both
+    animation: fadeIn 0.5s both
+
+@mixin fadeOutInActive
+    display: block
+    opacity: 1
+    -webkit-animation: fadeOut 0.5s both
+    animation: fadeOut 0.5s both
+
+@mixin fadeInFromTopActive100
+    display: block
+    opacity: 0
+    transform: translateY(-100px)
+    -webkit-animation: fadeInFromTop100 0.4s both
+    animation: fadeInFromTop100 0.4s both
+
+@mixin fadeOutToTopInActive100
+    display: block
+    opacity: 1
+    transform: translateY(0)
+    -webkit-animation: fadeOutToTop100 0.4s both
+    animation: fadeOutToTop100 0.4s both
+
+@mixin fadeInFromLeftActive
+    display: block
+    opacity: 0
+    transform: translateX(-600px)
+    -webkit-animation: fadeInFromLeft 0.4s both
+    animation: fadeInFromLeft 0.4s both
+
+@mixin fadeOutToLeftInActive
+    display: block
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToLeft 0.4s both
+    animation: fadeOutToLeft 0.4s both
+
+@mixin fadeInFromLeftActive100
+    display: block
+    opacity: 0
+    transform: translateX(-100px)
+    -webkit-animation: fadeInFromLeft100 0.4s both
+    animation: fadeInFromLeft100 0.4s both
+
+@mixin fadeOutToLeftInActive100
+    display: block
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToLeft100 0.4s both
+    animation: fadeOutToLeft100 0.4s both
+
+@mixin fadeInFromLeftActive50
+    display: block
+    opacity: 0
+    transform: translateX(-50px)
+    -webkit-animation: fadeInFromLeft50 0.4s both
+    animation: fadeInFromLeft50 0.4s both
+
+@mixin fadeOutToLeftInActive50
+    display: block
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToLeft50 0.4s both
+    animation: fadeOutToLeft50 0.4s both
+
+@mixin fadeInFromLeftActiveFlex
+    display: flex
+    opacity: 0
+    transform: translateX(-600px)
+    -webkit-animation: fadeInFromLeft 0.4s both
+    animation: fadeInFromLeft 0.4s both
+
+@mixin fadeOutToLeftInActiveFlex
+    display: flex
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToLeft 0.4s both
+    animation: fadeOutToLeft 0.4s both
+
+@mixin fadeInFromRightActive100
+    display: block
+    opacity: 0
+    transform: translateX(100px)
+    -webkit-animation: fadeInFromRight100 0.4s both
+    animation: fadeInFromRight100 0.4s both
+
+@mixin fadeOutToRightInActive100
+    display: block
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToRight100 0.4s both
+    animation: fadeOutToRight100 0.4s both
+
+@mixin fadeInFromRightActive50
+    display: block
+    opacity: 0
+    transform: translateX(50px)
+    -webkit-animation: fadeInFromRight50 0.4s both
+    animation: fadeInFromRight50 0.4s both
+
+@mixin fadeOutToRightInActive50
+    display: block
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToRight50 0.4s both
+    animation: fadeOutToRight50 0.4s both
+
+@mixin fadeInFromRightActive50Flex
+    display: flex
+    opacity: 0
+    transform: translateX(50px)
+    -webkit-animation: fadeInFromRight50 0.4s both
+    animation: fadeInFromRight50 0.4s both
+
+@mixin fadeOutToRightInActive50Flex
+    display: flex
+    opacity: 1
+    transform: translateX(0)
+    -webkit-animation: fadeOutToRight50 0.4s both
+    animation: fadeOutToRight50 0.4s both
+
+@mixin fadeInRotateRightActive10
+    display: block
+    opacity: 0
+    transform: rotateZ(-10deg)
+    -webkit-animation: fadeInRotateRight10 0.4s both
+    animation: fadeInRotateRight10 0.4s both
+
+@mixin fadeOutRotateRightInActive10
+    display: block
+    opacity: 1
+    transform: rotateZ(0)
+    -webkit-animation: fadeOutRotateRight10 0.4s both
+    animation: fadeOutRotateRight10 0.4s both
+
+@mixin transitionAllSec($sec)
+    -webkit-transition: all #{$sec}s
+    transition: all #{$sec}s
+
+@mixin transitionDelay($sec)
+    -webkit-transition-delay: #{$sec}s
+    transition-delay: #{$sec}s
+
+@mixin transition08
+    -webkit-transition: all 0.8s
+    transition: all 0.8s
+
+@mixin transition07
+    -webkit-transition: all 0.7s
+    transition: all 0.7s
+
+@mixin transition06
+    -webkit-transition: all 0.6s
+    transition: all 0.6s
+
+@mixin transition05
+    -webkit-transition: all 0.5s
+    transition: all 0.5s
+
+@mixin transition04
+    -webkit-transition: all 0.4s
+    transition: all 0.4s
+
+@mixin scrollVertical
+    animation: scrollVertical 0.5s infinite alternate
+    -webkit-animation: scrollVertical 0.5s infinite alternate

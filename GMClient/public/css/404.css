@@ -1,0 +1,141 @@
+.contents-container {
+}
+.contents-wrapper {
+    margin: 100px auto;
+    max-width: 1366px;
+}
+.not-found-title {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.not-found-guide {
+    margin: 16px 0;
+    font-size: 1em;
+}
+.not-found-img, .not-found-text-group {
+    text-align: center;
+}
+.go-to-home-link {
+    display: inline-block;
+    margin: 0;
+    border: 3px solid #646464;
+    padding: 10px 80px;
+    color: white;
+    background: #646464;
+}
+.go-to-home-link:hover {
+    font-weight: 600;
+    color: #646464;
+    background: white;
+}
+/* footer */
+.footer-container {
+    
+}
+.footer-copyright-wrapper {
+    position: relative;
+    border-top: 1px solid #2d2d2d;
+    margin: 0 auto;
+    max-width: 1366px;
+}
+.footer-copyright {
+    margin: 0;
+    padding: 10px 0;
+    line-height: 14px;
+    text-align: center;
+}
+.footer-copyright > * {
+    vertical-align: middle;
+}
+.footer-copyright-logo {
+    display: inline-block;
+    max-width: 127px;
+}
+.footer-copyright-text {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 8px;
+    color: #afafaf;
+}
+@media screen and (max-width: 768px) {
+    .contents-wrapper {
+        margin: 80px auto;
+        max-width: 640px;
+    }
+
+    .not-found-img > img {
+        max-width: 480px;
+    }
+
+    .not-found-title {
+        font-size: 1.3em;
+    }
+
+    .not-found-guide {
+        font-size: .9em;
+    }
+
+    .footer-copyright-logo {
+        display: block;
+        margin: 0 auto 5px;
+        width: 121px;
+    }
+
+    .footer-copyright-text {
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 540px) {
+    .contents-wrapper {
+        margin: 50px auto;
+        max-width: 540px;
+    }
+    .not-found-img > img {
+        max-width: 320px;
+    }
+    .not-found-title {
+        font-size: 1.1em;
+    }
+    .not-found-guide {
+        font-size: .8em;
+    }
+}
+@media screen and (max-width: 320px) {
+    .contents-wrapper {
+        margin: 30px auto;
+        max-width: 320px;
+    }
+    .not-found-img > img {
+        max-width: 280px;
+    }
+    .not-found-title {
+        font-size: 1em;
+    }
+    .not-found-guide {
+        font-size: .75em;
+    }
+    .go-to-home-link {
+        padding: 8px 60px;
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 280px) {
+    .contents-wrapper {
+        margin: 30px auto;
+        max-width: 280px;
+    }
+    .not-found-img > img {
+        max-width: 240px;
+    }
+    .not-found-title {
+        font-size: .9em;
+    }
+    .go-to-home-link {
+        padding: 8px 60px;
+        font-size: .8em;
+    }
+}

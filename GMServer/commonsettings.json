@@ -1,0 +1,120 @@
+{
+  "CommonSettings": {
+    "companyName": "배장호",
+    "companyNameEn": "BAEJANGHO",
+    "projectName": "샘플",
+    "projectNameEn": "Sample",
+    "cookieName": "BAEJANGHO.GameManager.Sample.SR",
+    "uploadFolderName": "files",
+    "packageName": "com.sp.kr",
+    "moneySymbol": "krw",
+    "superEmails": [ "zanghobae@gmail.com" ],
+    "authPersistence": 30,
+    "serverState": "InsideTest",
+    "databases": [
+      {
+        "serverState": "InsideTest",
+        "dbRole": "GameManager",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderus_gm;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "GameManagerWriteOnly",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderus_gm;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "GMLog",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderus_gm_log;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "GMLogWriteOnly",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderus_gm_log;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "VisitWriteOnly",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderus_gm_visit;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "Game",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderers_game;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "GameWriteOnly",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderers_game;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "Admin",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderers_admin;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "AdminWriteOnly",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderers_admin;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "Log",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderers_log;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "ChatLog",
+        "dbType": "MYSQL",
+        "connectionString": "Server=127.0.0.1;Port=3307;User ID=root;Password=password;Database=wonderers_chat_log;"
+      },
+      {
+        "serverState": "InsideTest",
+        "dbRole": "ActiveUser",
+        "dbType": "Redis",
+        "connectionString": "127.0.0.1:6379"
+      }
+    ],
+    "clientInfo": [
+      {
+        "id": "415293c7-b99e-11ed-9bd0-58112205f859",
+        "host": "https://localhost:4201"
+      },
+      {
+        "id": "e088fdf2-b8e8-11ed-9bd0-58112205f859",
+        "host": "http://localhost:4200"
+      },
+      {
+        "id": "1308b4ee-b99e-11ed-9bd0-58112205f859",
+        "host": "https://localhost:4101"
+      },
+      {
+        "id": "4b64c558-b99e-11ed-9bd0-58112205f859",
+        "host": "http://localhost:4100"
+      },
+      {
+        "id": "1635e0a9-b99e-11ed-9bd0-58112205f859",
+        "host": "http://127.0.0.1:4200"
+      }
+    ],
+    "stompInfo": {
+      "brokerUrls": [
+        "ws://127.0.0.1:61614/stomp"
+      ],
+      "login": "guest",
+      "passcode": "guest"
+    },
+    "cryptoKey": "kpvugNk0e5gFX8X7V856kGy6XJYt3CkJ",
+    "cryptoIV": "kpvugNk0e5gFX8X7"
+  }
+}

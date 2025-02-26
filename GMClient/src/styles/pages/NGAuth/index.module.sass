@@ -1,0 +1,148 @@
+﻿@import "@styles/defines/_mediaQuery"
+@import "@styles/defines/_mixin"
+@import "@styles/defines/modal/_layout"
+    
+.authForm
+    position: absolute
+    left: 0
+    top: calc(50% - 234px)
+    width: 100%
+
+
+    .authFormWrapper
+        margin: 0 auto
+        width: 300px
+
+        .authTitle
+            display: block
+            width: 100%
+
+            .titleLogo
+
+        .loginBtnWrapper
+            margin: 80px 0 0
+            display: flex
+            flex-direction: column
+            width: 100%
+
+            .loginBtn
+                @include transition05
+                display: inline-block
+                border: 1px solid #d9d9d9
+                border-radius: 5px
+                padding: 10px 30px 10px 50px
+                text-align: left
+                background: none
+                
+
+                &.loginWithGoogleBtn
+                    background: url(/images/google-logo.png) no-repeat 13px 9px
+                    background-size: 21px 21px
+
+                &.loginWithAppleBtn
+                    background: url(/images/apple-logo.png) no-repeat 15px 8px
+                    background-size: 22px 22px
+
+                &:hover
+                    @include transition05
+                    cursor: pointer
+                    border-color: black
+
+        .howToWrapper
+            position: relative
+            margin: 10px 0 0
+            padding: 0
+
+            .howTo
+                @include transition05
+                margin: 0
+                border: 0
+                padding: 0 0 0 30px
+                font-size: 14px
+                color: #000000
+                background: url(/images/mono-gnome-question.svg) no-repeat 5px 3px
+                background-size: 15px 15px
+                opacity: 0.5
+
+                &:hover
+                    @include transition05
+                    cursor: pointer
+                    opacity: 1
+
+            .howToDetailWrapper
+                @include transition05
+                @include fadeOutInActive
+                display: none
+                position: absolute
+                top: 0
+                left: 0
+                border: 1px solid #d9d9d9
+                border-radius: 3px
+                padding: 10px
+                background: white
+
+                &.activeHowToDetailWrapper
+                    @include transition05
+                    @include fadeInActive
+                    display: block
+
+                .howToDetailClose
+                    position: absolute
+                    top: 10px
+                    right: 10px
+                    display: block
+                    margin: 0
+                    border: 0
+                    padding: 0
+                    width: 15px
+                    background: none
+
+                    &:hover
+                        cursor: pointer
+
+                .howToDetailBlock
+                    &:not(:first-child)
+                        padding: 10px 0 0
+
+                    .howToDetailTitle
+                        font-weight: 700
+                        font-size: 14px
+
+                    .howToDetailParagraph
+                        padding: 10px 0 0
+                        font-size: 11px
+
+                        .downloadBtnWrapper
+                            display: flex
+
+                            .downloadBtn
+                                margin: 0
+                                border: 0
+                                padding: 0
+                                width: 120px
+                                background: none
+
+                                &:hover
+                                    cursor: pointer
+
+                                &.downloadBtnGoogle
+                                    margin: 0
+
+                                &.downloadBtnApple
+                                    margin-left: 10px
+
+@include galxFoldCover
+    .authForm
+        position: absolute
+        left: 0
+        top: calc(50% - 234px)
+        width: 100%
+
+
+        .authFormWrapper
+            margin: 0 auto
+            width: 200px
+
+@media (max-height: 700px)
+    .authCon
+        margin-top: 0
